@@ -8,14 +8,14 @@
 	<div>
 		<h1>Purpose, Audience, Goal:</h1>
 		<br>
-		<h2>Purpose:</h2>
-
+		<h1>Purpose:</h1>
+		<p>The purpose of my PWP is to provide a dynamic Resume, Portfolio, an 'About Me' profile, and contact containers within the page to provide potential employers and clients to hire me for my programming/development skills.</p>
 		<br>
-		<h2>Audience:</h2>
-
+		<h1>Audience:</h1>
+		<p>My audience is professional peers who may be interested in working with me on projects, potential employers who may be interested in hiring me, and clients interested in contracting my skills.</p>
 		<br>
-		<h2>Goal:</h2>
-
+		<h1>Goal:</h1>
+		<p>My goal is to acquire full-time employment, grow my professional network, and to attract freelance clients.</p>
 		<br>
 		<br>
 		<h1>Persona:</h1>
