@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timothy Beck</title>
+</head>
+<body>
+<!-- 	This wrapper container contains the elements of the page for a second layer of styling besides body.
+		The header is a small segment above the nav bar that disappears off screen when scrolling down.
+		The titleContaier contains a png of the website logo/title, likely my name in a stylized fashion.-->
+<div class="wrapper">
+	<div class="header">
+		<div class="titleContainer"></div>
+	</div>
+	<!--	The nav element contains the navContainer which acts as a nav bar,
+			nav also holds the socialMediaContainer and buttons.
+			 socialMediaContainer will be positioned outside the nav bar, against the top of the viewport, until
+			 yous scroll down, which will position it inside the nav bar.-->
+	<div class="nav">
+		<div class="navContainer">
+			<div class="resumeButton"></div>
+			<div class="portfolioButton"></div>
+			<div class="aboutButton"></div>
+			<div class="contactButton"></div>
+		</div>
+		<div class="socialMediaContainer">
+			<div class="githubButton"></div>
+			<div class="linkedinButton"></div>
+			<div class="facebookButton"></div>
+		</div>
+	</div>
+	<!-- 	The headboard element is behind the nav and header elements. it's sole purpose is to push the sidebar and
+			dynamic elements out from behind the nav/header-->
+	<div class="headboard">
+
+	</div>
+	<!-- 	The sidebar element along the left side of the screen is numbered dynamically to the length of the page.
+			Emulating the styling of Sublime Text editor-->
+	<div class="sidebar">
+
+	</div>
+	<!-- 	The mobileMenu is appears outside of the right edge of viewport unless you are loading a mobile page.
+			In this case it slide in from the right side of the viewport, while the menu icon stays in the top right
+			corner of vieport. The menuContent element contains the nav elements, socialmedia elements similarly to
+			the nav element, however also has a copywrite statement, and a call to action image for social media.-->
+	<div class="mobileMenu">
+		<div class="menuIcon">
+			<div class="menuButton"></div>
+		</div>
+		<div class="menuContent">
+			<div class="buttons">
+				<div class="resumeButton"></div>
+				<div class="portfolioButton"></div>
+				<div class="aboutButton"></div>
+				<div class="contactButton"></div>
+			</div>
+		</div>
+		<div class="socialMediaContainer">
+			<div class="githubButton"></div>
+			<div class="linkedinButton"></div>
+			<div class="facebookButton"></div>
+		</div>
+	</div>
+	<!--	dynamicContent element contains the main portion of the page, using JS DOM manipulation we will append elements
+			into this container, which will comprise the majority of the page content.-->
+	<div class="dynamicContent">
+
+	</div>
+</div>
+</body>
+</html>
