@@ -3,6 +3,7 @@
 <head>
 	<title>PWP Project Milestone 2</title>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="m2styles.css">
 </head>
 <body>
 	<div>
@@ -22,17 +23,20 @@
 	<div>
 		<h1>Wireframes</h1>
 		<h2>Mobile</h2>
-		<p>Mobile Menu</p><img src="./wireframe-assets/Mobile-Menu.png">
-		<p>Mobile Resume</p><img src="./wireframe-assets/Resume.png">
-		<p>Mobile About</p><img src="./wireframe-assets/About.png">
-		<p>Mobile Portfolio</p><img src="./wireframe-assets/Portfolio.png">
-		<p>Mobile Contact</p><img src="./wireframe-assets/Contact.png">
-
+		<div id="flexrow">
+		<img class="mobileWire" src="./wireframe-assets/Mobile-Menu.png">
+		<img class="mobileWire" src="./wireframe-assets/Resume.png">
+		<img class="mobileWire" src="./wireframe-assets/About.png">
+		<img class="mobileWire" src="./wireframe-assets/Portfolio.png">
+		<img class="mobileWire" src="./wireframe-assets/Contact.png">
+		</div>
 		<h2>Desktop</h2>
-		<p>Resume</p><img src="./wireframe-assets/Desktop-Resume.png">
-		<p>About</p><img src="./wireframe-assets/Desktop-About.png">
-		<p>Portfolio</p><img src="./wireframe-assets/Desktop-Portfolio.png">
-		<p>Contact</p><img src="./wireframe-assets/Desktop-Contact.png">
+		<div class="gridbox">
+		<img id="respic" src="./wireframe-assets/Desktop-Resume.png">
+		<img id="aboutpic" src="./wireframe-assets/Desktop-About.png">
+		<img id="portpic" src="./wireframe-assets/Desktop-Portfolio.png">
+		<img id="contpic" src="./wireframe-assets/Desktop-Contact.png">
+		</div>
 	</div>
 </body>
 </html>

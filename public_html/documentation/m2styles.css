@@ -1,0 +1,49 @@
+#flexrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mobileWire {
+	width: 18%;
+}
+.gridbox {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 10% 40% 10% 40%;
+}
+#resume {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+#respic {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	width: 95%;
+}
+#about {
+	grid-column-start: 2;
+	grid-row-start: 1;
+}
+#aboutpic {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	width: 95%;
+}
+#port {
+	grid-column-start: 1;
+	grid-row-start: 3;
+}
+#portpic {
+	grid-column-start: 1;
+	grid-row-start: 4;
+	width: 95%;
+}
+#contact {
+	grid-column-start: 2;
+	grid-row-start: 3;
+}
+#contpic {
+	grid-column-start: 2;
+	grid-row-start: 4;
+	width: 95%;
+}
