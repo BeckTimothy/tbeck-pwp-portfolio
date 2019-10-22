@@ -20,7 +20,7 @@
 		<br>
 		<h1>Persona:</h1>
 		<br>
-		<p>Lando Rock, who for 12 years was the 'head of hiring' as the Senior Vice President of People Operations at Google, is a 50 year old American from Italy. He graduated from Arizona State College with a BA and Yale school of management with an MBA. When hiring, Rock weighs skills that relate to learning new things and solving problems as the most important skills in potential employees. He seems to be very positive and passionate about his workplace, peers, and technology. His goal is to gain more information on the potential new hire portrayed through my website.</p>
+		<p>Lando Rock, who for 12 years was the 'head of hiring' as the Senior Vice President of People Operations at Google, is a 50 year old American from Italy. He graduated from Arizona State College with a BA and Yale school of management with an MBA. When hiring, Rock weighs skills that relate to learning new things and solving problems as the most important skills in potential employees. He seems to be very positive and passionate about his workplace, peers, and technology. His goal is to gain more information on the potential new hire portrayed through my website. Utilizing Github, and LinkedIn to vett potential employees during onboarding he can ask them related questions to their skills to gain a better understanding of their skill level as developers.</p>
 		<br>
 		<div>
 			<img src="./star-wars-lando-calrissian.jpg" alt="headshot of Lando Rock">
