@@ -1,0 +1,31 @@
+.px-space {
+	width: 35px;
+}
+
+.headspace {
+	height: 50px;
+	width: 100%;
+	top: 0;
+}
+.navfix {
+	position: sticky;
+	top: 0;
+}
+
+.headboard {
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	height: 90px;
+	z-index: -10;
+}
+
+.sidebar {
+	width: 35px;
+	height: 100%;
+	background-color: dimgrey;
+}
+
+.linenum {
+	overflow: hidden;
+}
