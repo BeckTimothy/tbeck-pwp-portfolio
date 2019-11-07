@@ -22,10 +22,21 @@
 
 .sidebar {
 	width: 35px;
-	height: 100%;
+	height: inherit;
 	background-color: dimgrey;
 }
 
+.dynamicContent {
+	display: flex;
+	flex-direction: row;
+}
 .linenum {
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+
+	text-overflow: '';
 	overflow: hidden;
+	white-space: normal
 }
