@@ -136,6 +136,96 @@ body {
 	background-color: #282923;
 }
 
+/*The below section is the 'imitation CSS code' for portfolio to stylize similarly to Sublime Text*/
+.PortfolioItem {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+.PortfolioImage {
+	padding: 0 20px;
+	height: 100px;
+	align-self: center;
+	border: #282923 2px solid;
+}
+.ClassContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+.ClassIntro {
+	padding: 0;
+	margin:	0;
+}
+.ClassBody {
+	padding: 0 0 0 30px;
+	border-left: dotted;
+	border-width: 	0.05em;
+	border-color: #908463;
+	margin:	0;
+}
+.ClassClose {
+	padding: 0;
+	margin:	0;
+}
+.ClassBody > p {
+	word-break: keep-all;
+	padding: 0;
+	margin:	0;
+}
+.c {/*.Class*/
+	font-family: monospace;
+	color: #a6ce28;
+	padding: 0;
+	margin:	0;
+}
+.p {/*Punctuation*/
+	font-family: monospace;
+	color: #f8f8dc;
+	padding: 0;
+	margin:	0;
+}
+.pr {/*Property*/
+	font-family: monospace;
+	font-style: italic;
+	color: #67d8ef;
+	padding: 0;
+	margin:	0;
+}
+.v {/*Value*/
+	font-family: monospace;
+	color: #67d8ef;
+	padding: 0;
+	margin:	0;
+}
+.cm {/*Comment*/
+	font-family: monospace;
+	color: #746746;
+	padding: 0;
+	margin:	0;
+}
+.i {/*integer*/
+	font-family: monospace;
+	color: #ac80e8;
+	padding: 0;
+	margin:	0;
+}
+.m {/*unit of measurement*/
+	font-family: monospace;
+	color: #f92472;
+	padding: 0;
+	margin:	0;
+}
+/*The above section is for the 'imitation CSS code'*/
+
+
+
+
+
+
+
 /* footboard is a footer but also a hacky fix to spacing at the bottom of the page*/
 .footboard {
 	position: fixed;
