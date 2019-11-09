@@ -91,3 +91,30 @@ body {
 	overflow: hidden;
 }
 
+.LineNumWindow {
+	float: left;
+	position: absolute;
+	height: 100%;
+	top: 5px;
+	bottom: 5px;
+	width: 45px;
+	margin: 0;
+	background-color: #282923;
+	overflow: hidden;
+}
+.LineNumbers {
+	border-right: solid;
+	border-width: 10px;
+	border-color: #282923;
+	text-align: right;
+	color: #6d6e6a;
+	height: 100%;
+	overflow: hidden;
+}
+.LineNumbers > p {
+	padding: 0;
+	margin:	0;
+	height: 100%;
+	overflow: hidden;
+}
+
