@@ -42,11 +42,11 @@ body {
 	z-index: 500;
 }
 
-:hover {
+.ResumeButton :hover {
 	cursor: pointer;
 }
 
-:focus {
+.ResumeButton :focus {
 	outline: 0;
 }
 
@@ -57,27 +57,11 @@ body {
 	z-index: 400;
 }
 
-:hover {
-	cursor: pointer;
-}
-
-:focus {
-	outline: 0;
-}
-
 .ContactButton {
 	position: absolute;
 	bottom: 0;
 	left: 373px;
 	z-index: 300;
-}
-
-:hover {
-	cursor: pointer;
-}
-
-:focus {
-	outline: 0;
 }
 
 .AboutButton {
@@ -87,27 +71,11 @@ body {
 	z-index: 200;
 }
 
-:hover {
-	cursor: pointer;
-}
-
-:focus {
-	outline: 0;
-}
-
 /*Blog is out of scope at the moment and will be added in when I find time between other projects*/
 .BlogButton {
 	position: absolute;
 	bottom: 0px;
 	left: 701px;
 	z-index: 100;
-}
-
-:hover {
-	cursor: pointer;
-}
-
-:focus {
-	outline: 0;
 }
 
