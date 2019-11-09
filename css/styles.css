@@ -1,42 +1,113 @@
-.px-space {
-	width: 35px;
+h1 {
+	color: #f8f8f8;
 }
 
-.headspace {
-	height: 50px;
-	width: 100%;
-	top: 0;
+body {
+	position: relative;
+	margin: 0;
+	color: #fff;
+	font-family: monospace, serif;
+	font-size: 12px;
 }
-.navfix {
-	position: sticky;
-	top: 0;
-}
+
+/*Below is the roughdraft for my website*/
+
+/*LineNumbWindow will stretch along the left side of the code window and display line #*/
+/*BG color = #282923 */
+/*highlighted BG color = #3e3d32 */
+/*text primary color = #908463 */
 
 .headboard {
 	position: fixed;
 	width: 100%;
-	background-color: black;
-	height: 90px;
-	z-index: -10;
-}
-
-.sidebar {
-	width: 35px;
-	height: inherit;
-	background-color: dimgrey;
-}
-
-.dynamicContent {
 	display: flex;
-	flex-direction: row;
-}
-.linenum {
-	position: absolute;
+	background-color: #6d6e6a;
+	z-index: 2;
 	left: 0;
-	top: 92px;
-	max-height: 100%;
-
-	text-overflow: '';
-	overflow: hidden;
-	white-space: normal;
 }
+
+.NavMenu {
+	background-color: #6d6e6a;
+}
+
+.NavBar {
+	height: 35px;
+	background-color: #6d6e6a;
+}
+
+.ResumeButton {
+	position: absolute;
+	bottom: 0;
+	left: 45px;
+	z-index: 500;
+}
+
+:hover {
+	cursor: pointer;
+}
+
+:focus {
+	outline: 0;
+}
+
+.PortfolioButton {
+	position: absolute;
+	bottom: 0;
+	left: 209px;
+	z-index: 400;
+}
+
+:hover {
+	cursor: pointer;
+}
+
+:focus {
+	outline: 0;
+}
+
+.ContactButton {
+	position: absolute;
+	bottom: 0;
+	left: 373px;
+	z-index: 300;
+}
+
+:hover {
+	cursor: pointer;
+}
+
+:focus {
+	outline: 0;
+}
+
+.AboutButton {
+	position: absolute;
+	bottom: 0;
+	left: 537px;
+	z-index: 200;
+}
+
+:hover {
+	cursor: pointer;
+}
+
+:focus {
+	outline: 0;
+}
+
+/*Blog is out of scope at the moment and will be added in when I find time between other projects*/
+.BlogButton {
+	position: absolute;
+	bottom: 0px;
+	left: 701px;
+	z-index: 100;
+}
+
+:hover {
+	cursor: pointer;
+}
+
+:focus {
+	outline: 0;
+}
+

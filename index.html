@@ -4,48 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Timothy Beck</title>
 	<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/bootstrap.css">
-	<link rel="stylesheet" href="./css/bootstrap-grid.css">
-	<link rel="stylesheet" href="./css/bootstrap-reboot.css">
-
-	<link rel="script" href="./scripts/bootstrap.js">
-	<link rel="script" href="./scripts/bootstrap.bundle.js">
 </head>
 <body>
-<!-- 	This wrapper container contains the elements of the page for a second layer of styling besides body.
-		The header is a small segment above the nav bar that disappears off screen when scrolling down.
-		The titleContainer contains a png of the website logo/title, likely my name in a stylized fashion.-->
-
-<div class="header">
-	<div class="titleContainer"></div>
-</div>
-
 <!-- 	The headboard element is behind the nav and header elements. it's sole purpose is to push the sidebar and
-			dynamic elements out from behind the nav/header-->
+			dynamic elements out from behind the nav/header
+	The nav element contains the navContainer which acts as a nav bar,
+			nav will also holds the socialMediaContainer and buttons.-->
 <div class="headboard">
-
-</div>
-<div class="headspace"></div>
-<!--	The nav element contains the navContainer which acts as a nav bar,
-			nav also holds the socialMediaContainer and buttons.
-			 socialMediaContainer will be positioned outside the nav bar, against the top of the viewport, until
-			 yous scroll down, which will position it inside the nav bar.-->
-<div class="navfix  bg-dark">
-<ul class="nav nav-tabs bg-dark">
-	<li class="nav-item px-space bg-dark"></li>
-	<li class="nav-item  bg-dark">
-		<a class="nav-link active text-light bg-secondary" href="#">Resume</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link text-light bg-dark" href="#">Portfolio</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link text-light bg-dark" href="#">About Tim</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link text-light bg-dark" href="#">Contact</a>
-	</li>
-</ul>
+	<nav class="NavBar">
+		<div class="NavMenu">
+			<input type="image" class="ResumeButton" onclick="" src="media/resumeActive.png" alt="Resume"/>
+			<input type="image" class="PortfolioButton" onclick="" src="media/portfolioInactive.png" alt="Portfolio"/>
+			<input type="image" class="ContactButton" onclick="" src="media/ContactInactive.png" alt="Contact Me"/>
+			<input type="image" class="AboutButton" onclick="" src="media/AboutmeInactive.png" alt="About Me"/>
+			<!-- My blog is currently out of scope and will be added at a later date between projects-->
+			<input type="image" class="BlogButton" onclick="" src="media/blogInactive.png" alt="Blog"/>
+		</div>
+	</nav>
 </div>
 
 <!-- 	The mobileMenu is appears outside of the right edge of viewport unless you are loading a mobile page.
@@ -77,16 +52,13 @@
 	<!-- 	The sidebar element along the left side of the screen is numbered dynamically to the length of the page.
 		Emulating the styling of Sublime Text editor-->
 	<div class="sidebar">
-		<div class="sidebar-spacing"></div>
 		<div class="linenum">
-			<p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br>30<br>31<br>32<br>33<br>34<br>35<br>36<br>37<br>38<br>39<br>40<br>41<br>42<br>43<br>44<br>45<br>46<br>47<br>48<br>49<br>50<br>51<br>52<br>53<br>54<br>55<br>56<br>57<br>58<br>59<br>60<br>61<br>62<br>63<br>64<br>65<br>66<br>67<br>68<br>69<br>70<br>71<br>72<br>73<br>74<br>75<br>76<br>77<br>78<br>79<br>80<br>81<br>82<br>83<br>84<br>85<br>86<br>87<br>88<br>89<br>90<br>91<br>92<br>93<br>94<br>95<br>96<br>97<br>98<br>99<br>100<br>
-			</p>
+
 		</div>
 	</div>
 
 	<div class="mainpage">
-	<p>test<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br>30<br>31<br>32<br>33<br>34<br>35<br>36<br>37<br>38<br>39<br>40<br>41<br>42<br>43<br>44<br>45<br>46
-	</p>
+
 	</div>
 </div>
 
