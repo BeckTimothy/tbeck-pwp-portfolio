@@ -44,30 +44,10 @@
 		<div class="facebookButton"></div>
 	</div>
 </div>
-<!--	dynamicContent element contains the main portion of the page, using JS DOM manipulation we will append elements
-		into this container, which will comprise the majority of the page content.-->
-<div class="dynamicContent">
-
-	<!-- 	The sidebar element along the left side of the screen is numbered dynamically to the length of the page.
-		Emulating the styling of Sublime Text editor-->
-	<div class="sidebar">
-		<div class="linenum">
-
-		</div>
-	</div>
-
-	<div class="mainpage">
-
-	</div>
-</div>
-
-
-
-
-
-
 
 <div class="Content">
+	<!-- 	The LineNumWindow and LineNumbers elements along the left side of the screen is numbered and dynamically hides numbers to the length of the page.
+		Emulating the styling of Sublime Text editor-->
 	<div class="LineNumWindow">
 		<div>
 			<div class="LineNumbers">
@@ -77,6 +57,8 @@
 		</div>
 	</div>
 	<div class="main">
+		<!--	CodeWindow element contains the main portion of the page, using JS DOM manipulation we will append elements
+		into this container, which will comprise the majority of the page content.-->
 		<div id="CodeWindow">
 			<div class="CodeWindowTextBlock">
 				<p>sample text</p>
