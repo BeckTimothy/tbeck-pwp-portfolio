@@ -70,8 +70,24 @@ body {
 /*Blog is out of scope at the moment and will be added in when I find time between other projects*/
 .BlogButton {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	left: 701px;
 	z-index: 100;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	position: relative;
+	padding-left: 45px;
+	top: 0;
+	right: 0;
+	min-height: 100%;
+}
+/*content pushes main page and line numbers out from under header*/
+.Content {
+	padding-top: 35px;
+	overflow: hidden;
 }
 
