@@ -42,12 +42,8 @@ body {
 	z-index: 500;
 }
 
-.ResumeButton :hover {
+.ResumeButton:hover {
 	cursor: pointer;
-}
-
-.ResumeButton :focus {
-	outline: 0;
 }
 
 .PortfolioButton {
