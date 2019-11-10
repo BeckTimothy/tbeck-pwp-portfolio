@@ -141,12 +141,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-content: flex-start;
+}
+.PortfolioImageWrap {
+	align-self: center;
 }
 .PortfolioImage {
 	padding: 0 20px;
 	height: 100px;
-	align-self: center;
 	border: #282923 2px solid;
 }
 .ClassContainer{
