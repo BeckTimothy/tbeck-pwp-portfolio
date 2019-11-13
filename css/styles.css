@@ -35,6 +35,13 @@ body {
 	background-color: #6d6e6a;
 }
 
+.tblogo {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	z-index: 100;
+}
+
 .ResumeButton {
 	position: absolute;
 	bottom: 0;
