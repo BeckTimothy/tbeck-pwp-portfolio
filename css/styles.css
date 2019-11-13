@@ -99,7 +99,7 @@ body {
 	top: 5px;
 	bottom: 5px;
 	width: 45px;
-	margin: 0;
+	margin: 3px 0 0 0;
 	background-color: #282923;
 	overflow: hidden;
 }
@@ -234,6 +234,6 @@ body {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 5px;
+	height: 8px;
 	background-color: #282923;
 }
