@@ -12,3 +12,16 @@ Please add the technology that Lando is using to the Persona.
 Keep up the good work.
 
 $MilestoneOneGrade = "Tier 3";
+
+
+## Milestone 2 Feedback
+
+Great job!
+
+There were no HTML errors.
+
+Your content strategy and wire frames have good detail.
+
+Keep up the good work.
+
+const milestoneTwoGrade = "Tier 4"
