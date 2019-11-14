@@ -1,19 +1,19 @@
 h1 {
-	color: #f8f8f8;
+	color: #f8f8f8; 
 }
 
 body {
-	position: relative;
-	margin: 0;
-	color: #fff;
-	font-family: monospace, serif;
-	font-size: 12px;
+	position: relative; 
+	margin: 0; 
+	color: #fff; 
+	font-family: monospace, serif; 
+	font-size: 12px; 
 }
 p {
-	margin:0;
+	margin:0; 
 }
 a {
-	margin: 0;
+	margin: 0; 
 }
 /*Below is the roughdraft for my website*/
 
@@ -23,97 +23,97 @@ a {
 /*text primary color = #908463 */
 
 .headboard {
-	position: fixed;
-	width: 100%;
-	display: flex;
-	background-color: #6d6e6a;
-	z-index: 2;
-	left: 0;
+	position: fixed; 
+	width: 100%; 
+	display: flex; 
+	background-color: #6d6e6a; 
+	z-index: 2; 
+	left: 0; 
 }
 
 .NavMenu {
-	background-color: #6d6e6a;
+	background-color: #6d6e6a; 
 }
 
 .NavBar {
-	height: 35px;
-	background-color: #6d6e6a;
+	height: 35px; 
+	background-color: #6d6e6a; 
 }
 
 .tblogo {
-	position: absolute;
-	bottom: 0;
-	left: 10px;
-	z-index: 100;
+	position: absolute; 
+	bottom: 0; 
+	left: 10px; 
+	z-index: 100; 
 }
 
 .ResumeButton {
-	position: absolute;
-	bottom: 0;
-	left: 45px;
-	z-index: 500;
+	position: absolute; 
+	bottom: 0; 
+	left: 45px; 
+	z-index: 500; 
 }
 
 .ResumeButton:hover {
-	cursor: pointer;
+	cursor: pointer; 
 }
 
 .PortfolioButton {
-	position: absolute;
-	bottom: 0;
-	left: 209px;
-	z-index: 400;
+	position: absolute; 
+	bottom: 0; 
+	left: 209px; 
+	z-index: 400; 
 }
 
 .ContactButton {
-	position: absolute;
-	bottom: 0;
-	left: 373px;
-	z-index: 300;
+	position: absolute; 
+	bottom: 0; 
+	left: 373px; 
+	z-index: 300; 
 }
 
 .AboutButton {
-	position: absolute;
-	bottom: 0;
-	left: 537px;
-	z-index: 200;
+	position: absolute; 
+	bottom: 0; 
+	left: 537px; 
+	z-index: 200; 
 }
 
 /*Blog is out of scope at the moment and will be added in when I find time between other projects*/
 .BlogButton {
-	position: absolute;
-	bottom: 0;
-	left: 701px;
-	z-index: 100;
+	position: absolute; 
+	bottom: 0; 
+	left: 701px; 
+	z-index: 100; 
 }
 
 .main {
-	display: flex;
-	flex-direction: row;
-	align-content: stretch;
-	position: relative;
-	padding-left: 45px;
-	top: 0;
-	right: 0;
-	min-height: 100%;
+	display: flex; 
+	flex-direction: row; 
+	align-content: stretch; 
+	position: relative; 
+	padding-left: 45px; 
+	top: 0; 
+	right: 0; 
+	min-height: 100%; 
 }
 /*content pushes main page and line numbers out from under header*/
 .Content {
-	padding-top: 35px;
-	overflow: hidden;
+	padding-top: 35px; 
+	overflow: hidden; 
 }
 
 .LineNumWindow {
-	float: left;
-	position: absolute;
-	height: 100%;
-	min-height: 99vh;
-	top: 5px;
-	bottom: 5px;
-	width: 45px;
-	margin: 3px 0 0 0;
-	background-color: #282923;
-	overflow: hidden;
+	float: left; 
+	position: absolute; 
+	height: 100%; 
+	min-height: 99vh; 
+	top: 5px; 
+	bottom: 5px; 
+	width: 45px; 
+	margin: 3px 0 0 0; 
+	background-color: #282923; 
+	overflow: hidden; 
 }
 .LineNumbers {
 	border-right: solid;
@@ -265,10 +265,65 @@ a {
 }
 /*The above section is for the 'imitation CSS code'*/
 
-
-
-
-
+/*Hacky fix for bootstrap tomfoolery*/
+a:not([href]):not([tabindex]).m {
+	line-height: normal;
+	font-weight: normal;
+	color: #f92472;
+}
+a:not([href]):not([tabindex]).i {
+	line-height: normal;
+	font-weight: normal;
+	color: #ac80e8;
+}
+a:not([href]):not([tabindex]).cm {
+	line-height: normal;
+	font-weight: normal;
+	color: #746746;
+}
+a:not([href]):not([tabindex]).v {
+	line-height: normal;
+	font-weight: normal;
+	color: #67d8ef;
+}
+a:not([href]):not([tabindex]).o {
+	line-height: normal;
+	font-style: italic;
+	color: #fd9622;
+}
+a:not([href]):not([tabindex]).s {
+	line-height: normal;
+	font-weight: normal;
+	color: #e7db74;
+}
+a:not([href]):not([tabindex]).pr {
+	line-height: normal;
+	font-style: italic;
+	color: #67d8ef;
+}
+a:not([href]):not([tabindex]).pb {
+	line-height: normal;
+	font-weight: bold;
+	color: #f8f8dc;
+}
+a:not([href]):not([tabindex]).p {
+	line-height: normal;
+	font-weight: normal;
+	color: #f8f8dc;
+}
+a:not([href]):not([tabindex]).c {
+	line-height: normal;
+	font-weight: normal;
+	color: #a6ce28;
+}
+.CodeWindowTextBlock {
+	font-weight: normal;
+	line-height: normal;
+}
+.LineNumWindow {
+	line-height: normal;
+}
+/*Above is my Hacky fix for bootstrap tomfoolery*/
 
 
 /* footboard is a footer but also a hacky fix to spacing at the bottom of the page*/
