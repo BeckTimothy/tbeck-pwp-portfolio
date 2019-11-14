@@ -325,7 +325,7 @@ a:not([href]):not([tabindex]).c {
 }
 /*Above is my Hacky fix for bootstrap tomfoolery*/
 
-/*Fix for HTML Contact form sizing and styling*/
+/*Fix for HTML Contact form sizing and styling from bootstrap*/
 /*this needs to change for mobile*/
 .form-group {
 	margin:0;
