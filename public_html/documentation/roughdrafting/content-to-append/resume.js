@@ -1,4 +1,5 @@
 let webDeveloper = {
+
 	'name': 'Timothy Beck',
 	'location': 'Albuquerque, New Mexico',
 	'phone': '(775)671.8596',

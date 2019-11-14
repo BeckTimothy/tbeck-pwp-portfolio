@@ -204,6 +204,22 @@ body {
 	padding: 0;
 	margin:	0;
 }
+
+.s {/*JS string*/
+	font-family: monospace;
+	color: #e7db74;
+	padding: 0;
+	margin:	0;
+}
+
+.o {/*JS Object*/
+	font-family: monospace;
+	font-style: italic;
+	color: #fd9622;
+	padding: 0;
+	margin:	0;
+}
+
 .v {/*Value*/
 	font-family: monospace;
 	color: #67d8ef;
@@ -243,4 +259,5 @@ body {
 	width: 100%;
 	height: 8px;
 	background-color: #282923;
+	z-index: -100;
 }
