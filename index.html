@@ -14,9 +14,6 @@
 	<link rel="stylesheet" href="./css/bootstrap-grid.css">
 	<link rel="stylesheet" href="./css/bootstrap-reboot.css">
 
-	<!-- My styles-->
-	<link rel="stylesheet" href="./css/styles.css">
-
 	<!-- Bootstrap JS-->
 	<link rel="script" href="./scripts/bootstrap.js">
 	<link rel="script" href="./scripts/bootstrap.bundle.js">
@@ -26,6 +23,9 @@
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<!-- My styles-->
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <!-- 	The nav element contains the navContainer which acts as a nav bar,
@@ -88,7 +88,7 @@
 				<!-- class container contains a punch of stylizing rules for the content appended to the page to allow it to appear as psuedo code. Not sure if this is okay to do like this-->
 
 
-<a class="p">&lt;?php</a><br>
+<a class="p">&lt;?php</a>
 				<a class="cm">/**</a>
 				<div class="DocblockBody">
 					<a class="cm">&nbsp;* </a><a class="pb">Constructor to create an Email for contacting Timothy Beck</a><br>
@@ -163,7 +163,7 @@
 						</div>
 							<!--END OF BODY FIELD-->
 							<!-- reCAPTCHA and SEND/RESET BUTTONS-->
-						<a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailVerification</a><a class="p">($newYourEmailVerification);</a><br>
+						<div class="form-group"><label><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailVerification</a><a class="p">($newYourEmailVerification);</a></label></div>
 						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
