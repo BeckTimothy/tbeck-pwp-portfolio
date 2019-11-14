@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+
+
+
+<a class="p">&lt;?php</a><br>
+<a class="cm">/**</a>
+<div class="DocblockBody">
+	<a class="cm"> * </a><a class="pb">Constructor to create an Email for contacting Timothy Beck</a><br>
+	<a class="cm"> * </a><br>
+	<a class="cm"> * </a><a class="m">@param </a><a class="cm">string $newYourName</a><br>
+	<a class="cm"> * </a><a class="m">@param </a><a class="cm">string $newYourEmail</a><br>
+	<a class="cm"> * </a><a class="m">@param </a><a class="cm">string $newYourEmailSubject</a><br>
+	<a class="cm"> * </a><a class="m">@param </a><a class="cm">string $newYourEmailBody</a><br>
+	<a class="cm"> * </a><a class="m">@param </a><a class="cm">boolean $newYourEmailVerification</a><br>
+	<a class="cm"> * </a><a class="m">@throws </a><a class="cm">\InvalidArgumentException if inputs are empty or Invalid</a><br>
+	<a class="cm"> * </a><a class="m">@throws </a><a class="cm">\RangeException if input data is too long</a><br>
+	<a class="cm"> * </a><a class="m">@throws </a><a class="cm">\TypeError if data types violate type hints</a><br>
+	<a class="cm"> */ </a>
+</div>
+<p><a class="m">public </a><a class="pr">function </a><a class="v">__construct</a><a class="p">(</a><a class="pr">string </a><a class="o">$newYourName</a><a class="p">,</a>
+<div class="ClassBody">
+	<div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody">
+		<a class="pr">string </a><a class="o">$newYourEmail</a><a class="p">,</a><br>
+		<a class="pr">string </a><a class="o">$newYourEmailSubject</a><a class="p">,</a><br>
+		<a class="pr">string </a><a class="o">$newYourEmailBody</a><a class="p">,</a><br>
+		<a class="pr">boolean </a><a class="o">$newYourEmailVerification</a><a class="p">) {</a><br>
+	</div></div></div></div></div></div>
+	<a class="m">try </a><a class="p">{</a><br>
+	<div class="ClassBody">
+		<a class="o">$this</a><a class="p">-></a><a class="v">setYourName</a><a class="p">($newYourName);</a><br>
+		<!-- NAME FIELD-->
+		<a class="o">$this</a><a class="p">-></a><a class="v">setYourEmail</a><a class="p">($newYourEmail);</a><br>
+		<!-- EMAIL FIELD-->
+		<a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailSubject</a><a class="p">($newYourEmailSubject);</a><br>
+		<!-- SUBJECT FIELD-->
+		<a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailBody</a><a class="p">($newYourEmailBody);</a><br>
+		<!-- BODY FIELD-->
+		<a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailVerification</a><a class="p">($newYourEmailVerification);</a><br>
+		<!-- reCAPTCHA and SEND/RESET BUTTONS-->
+	</div>
+	<a class="p">} </a><a class="cm">// determine if/what exception was thrown</a><br>
+	<a class="m">catch</a><a class="p">(\</a><a class="pr">InvalidArgumentException </a><a class="p">| \</a><a class="pr">RangeException </a><a class="p">| \</a><a class="pr">TypeError </a><a class="p">| \</a><a class="pr">Exception </a><a class="p">$exception) {</a><br>
+	<div class="ClassBody">
+		<a class="p">$exceptionType </a><a class="m">= </a><a class="v">get_class</a><a class="p">(exception);</a><br>
+		<a class="m">throw</a><a class="p">(</a><a class="m">new </a><a class="p">$exceptionType($exception-></a><a class="v">getMessage</a><a class="p">(),</a><a class="i"> 0</a><a class="p">, $exception));</a><br>
+	</div>
+	<a class="p">}</a><br>
+</div>
+<a class="p">
+	}<br>
+	?&gt;<br></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

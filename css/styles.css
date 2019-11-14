@@ -9,7 +9,12 @@ body {
 	font-family: monospace, serif;
 	font-size: 12px;
 }
-
+p {
+	margin:0;
+}
+a {
+	margin: 0;
+}
 /*Below is the roughdraft for my website*/
 
 /*LineNumbWindow will stretch along the left side of the code window and display line #*/
@@ -176,6 +181,12 @@ body {
 	border-color: #908463;
 	margin:	0;
 }
+.DocblockBody {
+	border-left: dotted;
+	border-width: 	0.05em;
+	border-color: #908463;
+	margin:0;
+}
 .ClassClose {
 	padding: 0;
 	margin:	0;
@@ -197,6 +208,14 @@ body {
 	padding: 0;
 	margin:	0;
 }
+.pb{/*emphasisize*/
+	font-family: monospace;
+	font-weight: bold;
+	color: #f8f8dc;
+	padding: 0;
+	margin:	0;
+}
+
 .pr {/*Property*/
 	font-family: monospace;
 	font-style: italic;
