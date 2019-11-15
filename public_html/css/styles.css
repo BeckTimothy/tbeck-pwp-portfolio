@@ -161,8 +161,8 @@ a {
 }
 .PortfolioImage {
 	padding: 0 20px;
-	height: 100px;
-	border: #282923 2px solid;
+	height: 140px;
+	border: #282923 4px solid;
 }
 .ClassContainer{
 	display: flex;
