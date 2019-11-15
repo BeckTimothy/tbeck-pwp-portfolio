@@ -37,10 +37,10 @@
 	<nav class="NavBar">
 		<div class="NavMenu">
 			<img class="tblogo" src="../media/tblogo32.png" alt="Timothy Beck Logo">
-			<input type="image" class="ResumeButton" onclick="" src="../media/resumeActive.PNG" alt="Resume"/>
-			<input type="image" class="PortfolioButton" onclick="" src="../media/portfolioInactive.PNG" alt="Portfolio"/>
-			<input type="image" class="ContactButton" onclick="" src="../media/contactInactive.png" alt="Contact Me"/>
-			<input type="image" class="AboutButton" onclick="" src="../media/aboutmeInactive.png" alt="About Me"/>
+			<input type="image" class="ResumeButton" id="resumeButton" onclick="" src="../media/resumeActive.PNG" alt="Resume"/>
+			<input type="image" class="PortfolioButton" id="portfolioButton" onclick="" src="../media/portfolioInactive.PNG" alt="Portfolio"/>
+			<input type="image" class="ContactButton" id="contactButton" onclick="" src="../media/contactInactive.png" alt="Contact Me"/>
+			<input type="image" class="AboutButton" id="aboutMeButton" onclick="" src="../media/aboutmeInactive.png" alt="About Me"/>
 			<!-- My blog is currently out of scope and will be added at a later date between projects
 			<input type="image" class="BlogButton" onclick="" src="./media/blogInactive.PNG" alt="Blog"/>
 			-->
@@ -87,7 +87,7 @@
 		<!--	CodeWindow element contains the main portion of the page, using JS DOM manipulation we will append elements
 		into this container, which will comprise the majority of the page content.-->
 		<div id="CodeWindow">
-			<div class="CodeWindowTextBlock">
+			<div class="CodeWindowTextBlock" id="dynamicContent">
 				<!-- class container contains a punch of stylizing rules for the content appended to the page to allow it to appear as psuedo code. Not sure if this is okay to do like this-->
 
 
