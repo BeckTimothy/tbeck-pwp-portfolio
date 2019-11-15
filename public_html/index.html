@@ -91,108 +91,244 @@
 				<!-- class container contains a punch of stylizing rules for the content appended to the page to allow it to appear as psuedo code. Not sure if this is okay to do like this-->
 
 
-<a class="p">&lt;?php</a>
-				<a class="cm">/**</a>
-				<div class="DocblockBody">
-					<a class="cm">&nbsp;* </a><a class="pb">Constructor to create an Email for contacting Timothy Beck</a><br>
-					<a class="cm">&nbsp;* </a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourName</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmail</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmailSubject</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmailBody</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">boolean $newYourEmailVerification</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\InvalidArgumentException if inputs are empty or Invalid</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\RangeException if input data is too long</a><br>
-					<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\TypeError if data types violate type hints</a><br>
-					<a class="cm">&nbsp;*/ </a>
-				</div>
-				<p><a class="m">public </a><a class="pr">function </a><a class="v">__construct</a><a class="p">(</a><a class="pr">string </a><a class="o">$newYourName</a><a class="p">,</a>
-				<div class="ClassBody">
-					<div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody">
-						<a class="pr">string </a><a class="o">$newYourEmail</a><a class="p">,</a><br>
-						<a class="pr">string </a><a class="o">$newYourEmailSubject</a><a class="p">,</a><br>
-						<a class="pr">string </a><a class="o">$newYourEmailBody</a><a class="p">,</a><br>
-						<a class="pr">boolean </a><a class="o">$newYourEmailVerification</a><a class="p">) {</a><br>
-					</div></div></div></div></div></div>
-					<a class="m">try </a><a class="p">{</a><br>
+
+<!-- resume page -->
+				<div id="resumePage" style="display: none;">
+					<div class="ClassIntro"><a class="pr">let </a><a class="p">webDeveloper </a><a class="m">= </a><a class="p">{</a></div>
 					<div class="ClassBody">
-						<!-- NAME FIELD-->
-						<form id="Timothy-Beck-form" action="../php/" method="post">
-							<div class="form-group">
-								<label for="name"><a class="o">$this</a><a class="p">-></a><a class="v">setYourName</a><a class="p">($newYourName);</a><br></label>
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text"></span>
-										<i class="fa fa-user" aria-hidden="true"></i>
+						<p>
+							<a class="s">'name'</a><a class="p">: </a><a class="s">'Timothy Beck'</a><a class="p">,</a><br>
+							<a class="s">'location</a><a class="p">: </a><a class="s">'Albuquerque, New Mexico'</a><a class="p">,</a><br>
+							<a class="s">'phone'</a><a class="p">: </a><a class="s">'(775)671.8596'</a><a class="p">,</a><br>
+							<a class="s">'email'</a><a class="p">: </a><a class="s">'dev@timothybeck.com'</a><a class="p">,</a><br>
+							<a class="s">'github'</a><a class="p">: </a><a class="s">'Github.com/BeckTimothy'</a><a class="p">,</a><br>
+						</p><br>
+						<a class="s">'myObjective'</a><a class="p">: </a><a class="s">'I love learning, experiencing new challenges, and
+						discussing interesting concepts especially '</a><a class="m"> +</a><br>
+						<div class="ClassBody">
+							<a class="s">'related to software development. Through diligent studying and networking with other '</a><a
+							class="m"> +</a><br>
+							<a class="s">'professionals, I hope to gain a firm footing in the development industry and kick down the door
+								'</a><a class="m"> +</a><br>
+							<a class="s">'at local businesses that can potentially hire a developer with an avid drive to learn as much as
+								'</a><a class="m"> +</a><br>
+							<a class="s">'possible in the realm of programming.'</a><a class="p">,</a><br>
+						</div>
+						<a class="c">getObjective</a><a class="p">: </a><a class="pr">function</a><a class="p">() {</a><br>
+						<div class="ClassBody"><a class="m">return </a><a class="o">this</a><a class="p">.myObjective;</a></div>
+						<a class="p">},</a><br>
+						<br>
+						<a class="s">'mySkills'</a><a class="p">: [</a>
+						<div class="ClassBody">
+							<a class="s">'Strong sense of motivation and a drive to learn more.'</a><a class="p">,</a><br>
+							<a class="s">'HTML, CSS, JavaScript Front-End experience'</a><a class="p">,</a><br>
+							<a class="s">'PHP, SQL, JavaScript Back-End experience'</a><a class="p">,</a><br>
+							<a class="s">'AGILE frameworks, such as Scrum and Kanban'</a><a class="p">,</a><br>
+							<a class="s">'Object-Oriented Programming'</a><a class="p">,</a><br>
+							<a class="s">'Photo, Video, and Audio editing skills'</a><br>
+						</div>
+						<a class="p">],</a><br>
+						<a class="c">getSkills</a><a class="p">: </a><a class="pr">function</a><a class="p">() {</a><br>
+						<div class="ClassBody"><a class="m">return </a><a class="o">this</a><a class="p">.mySkills;</a></div>
+						<a class="p">},</a><br>
+						<br>
+						<a class="s">'myProfessionalExperience'</a><a class="p">: {</a>
+						<div class="ClassBody">
+							<a class="s">'deepDiveCoding'</a><a class="p">: {</a><a class="s">'position'</a><a class="p">: </a><a class="s">'Intern'</a><a
+							class="p">, </a><a class="s">'startDate'</a><a class="p">: </a><a class="s">'Oct.2019'</a><a class="p">, </a><a
+							class="s">'endDate'</a><a class="p">: </a><a class="s">'Dec.2019'</a><a class="p">},</a><br>
+							<a class="s">'windsorDoorSales'</a><a class="p">: {</a><a class="s">'position'</a><a class="p">: </a><a class="s">'Data
+							Entry'</a><a class="p">, </a><a class="s">'startDate'</a><a class="p">: </a><a class="s">'Apr.2018'</a><a
+							class="p">, </a><a class="s">'endDate'</a><a class="p">: </a><a class="s">'Oct.2019'</a><a class="p">},</a><br>
+							<a class="s">'westernRefining'</a><a class="p">: {</a><a class="s">'position'</a><a class="p">: </a><a class="s">'Customer
+							Service Rep'</a><a class="p">, </a><a class="s">'startDate'</a><a class="p">: </a><a class="s">'Jan.2017'</a><a
+							class="p">, </a><a class="s">'endDate'</a><a class="p">: </a><a class="s">'Oct.2017'</a><a class="p">}</a><br>
+						</div>
+						<a class="p">},</a><br>
+						<a class="c">getExperience</a><a class="p">: </a><a class="pr">function</a><a class="p">() {</a><br>
+						<div class="ClassBody"><a class="m">return </a><a class="o">this</a><a class="p">.myProfessionalExperience;</a></div>
+						<a class="p">},</a><br>
+						<br>
+						<a class="s">'myEducation'</a><a class="p">: {</a>
+						<div class="ClassBody">
+							<a class="s">'deepDiveCoding'</a><a class="p">: {</a><a class="s">'award'</a><a class="p">: </a><a class="s">'Certificate'</a><a
+							class="p">, </a><a class="s">'dateAwarded'</a><a class="p">: </a><a class="s">'Dec.2019'</a><a class="p">, </a><a
+							class="s">'expirationDate'</a><a class="p">: </a><a class="s">'null'</a><a class="p">}</a><br>
+						</div>
+						<a class="p">},</a><br>
+						<a class="c">getEducation</a><a class="p">: </a><a class="pr">function</a><a class="p">() {</a><br>
+						<div class="ClassBody"><a class="m">return </a><a class="o">this</a><a class="p">.myEducation;</a></div>
+						<a class="p">},</a>
+					</div>
+					<a class="p">};</a>
+
+				</div>
+
+				<!-- contact form page-->
+				<div id="contactFormPage">
+					<a class="p">&lt;?php</a>
+					<a class="cm">/**</a>
+					<div class="DocblockBody">
+						<a class="cm">&nbsp;* </a><a class="pb">Constructor to create an Email for contacting Timothy Beck</a><br>
+						<a class="cm">&nbsp;* </a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourName</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmail</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmailSubject</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">string $newYourEmailBody</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@param </a><a class="cm">boolean $newYourEmailVerification</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\InvalidArgumentException if inputs are empty or Invalid</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\RangeException if input data is too long</a><br>
+						<a class="cm">&nbsp;* </a><a class="m">@throws </a><a class="cm">\TypeError if data types violate type hints</a><br>
+						<a class="cm">&nbsp;*/ </a>
+					</div>
+					<p><a class="m">public </a><a class="pr">function </a><a class="v">__construct</a><a class="p">(</a><a class="pr">string </a><a class="o">$newYourName</a><a class="p">,</a>
+					<div class="ClassBody">
+						<div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody"><div class="ClassBody">
+							<a class="pr">string </a><a class="o">$newYourEmail</a><a class="p">,</a><br>
+							<a class="pr">string </a><a class="o">$newYourEmailSubject</a><a class="p">,</a><br>
+							<a class="pr">string </a><a class="o">$newYourEmailBody</a><a class="p">,</a><br>
+							<a class="pr">boolean </a><a class="o">$newYourEmailVerification</a><a class="p">) {</a><br>
+						</div></div></div></div></div></div>
+						<a class="m">try </a><a class="p">{</a><br>
+						<div class="ClassBody">
+							<!-- NAME FIELD-->
+							<form id="Timothy-Beck-form" action="../php/" method="post">
+								<div class="form-group">
+									<label for="name"><a class="o">$this</a><a class="p">-></a><a class="v">setYourName</a><a class="p">($newYourName);</a><br></label>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"></span>
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 									</div>
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div>
+								<!--END OF NAME FIELD-->
+								<!-- EMAIL FIELD-->
+								<div class="form-group">
+									<label for="email"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmail</a><a class="p">($newYourEmail);</a><br></label>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"></span>
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div>
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+									</div>
+								</div>
+								<!--END OF EMAIL FIELD-->
+								<!-- SUBJECT FIELD-->
+								<div class="form-group">
+									<label for="subject"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailSubject</a><a class="p">($newYourEmailSubject);</a><br></label>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"></span>
+											<i class="fa fa-pencil" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+									</div>
+								</div>
+								<!--END OF SUBJECT FIELD-->
+								<!-- BODY FIELD-->
+								<div class="form-group">
+									<label for="message"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailBody</a><a class="p">($newYourEmailBody);</a><br></label>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"></span>
+											<i class="fa fa-comment" aria-hidden="true"></i>
+										</div>
+										<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
+									</div>
+								</div>
+								<!--END OF BODY FIELD-->
+								<!-- reCAPTCHA and SEND/RESET BUTTONS-->
+								<div class="form-group"><label><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailVerification</a><a class="p">($newYourEmailVerification);</a></label></div>
+								<!-- reCAPTCHA -->
+								<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</form>
+							<!--empty area for form error/success output-->
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area"></div>
 								</div>
 							</div>
-							<!--END OF NAME FIELD-->
-						<!-- EMAIL FIELD-->
-						<div class="form-group">
-							<label for="email"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmail</a><a class="p">($newYourEmail);</a><br></label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"></span>
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-							</div>
+							<!-- END OF reCAPTCHA and SEND/RESET BUTTONS-->
 						</div>
-							<!--END OF EMAIL FIELD-->
-						<!-- SUBJECT FIELD-->
-						<div class="form-group">
-							<label for="subject"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailSubject</a><a class="p">($newYourEmailSubject);</a><br></label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"></span>
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-							</div>
+						<a class="p">} </a><a class="cm">// determine if/what exception was thrown</a><br>
+						<a class="m">catch</a><a class="p">(\</a><a class="pr">InvalidArgumentException </a><a class="p">| \</a><a class="pr">RangeException </a><a class="p">| \</a><a class="pr">TypeError </a><a class="p">| \</a><a class="pr">Exception </a><a class="p">$exception) {</a><br>
+						<div class="ClassBody">
+							<a class="p">$exceptionType </a><a class="m">= </a><a class="v">get_class</a><a class="p">(exception);</a><br>
+							<a class="m">throw</a><a class="p">(</a><a class="m">new </a><a class="p">$exceptionType($exception-></a><a class="v">getMessage</a><a class="p">(),</a><a class="i"> 0</a><a class="p">, $exception));</a><br>
 						</div>
-							<!--END OF SUBJECT FIELD-->
-						<!-- BODY FIELD-->
-						<div class="form-group">
-							<label for="message"><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailBody</a><a class="p">($newYourEmailBody);</a><br></label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"></span>
-									<i class="fa fa-comment" aria-hidden="true"></i>
-								</div>
-								<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
-							</div>
-						</div>
-							<!--END OF BODY FIELD-->
-							<!-- reCAPTCHA and SEND/RESET BUTTONS-->
-						<div class="form-group"><label><a class="o">$this</a><a class="p">-></a><a class="v">setYourEmailVerification</a><a class="p">($newYourEmailVerification);</a></label></div>
-						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</form>
-						<!--empty area for form error/success output-->
-						<div class="row">
-							<div class="col-xs-12">
-								<div id="output-area"></div>
-							</div>
-						</div>
-						<!-- END OF reCAPTCHA and SEND/RESET BUTTONS-->
+						<a class="p">}</a><br>
 					</div>
-					<a class="p">} </a><a class="cm">// determine if/what exception was thrown</a><br>
-					<a class="m">catch</a><a class="p">(\</a><a class="pr">InvalidArgumentException </a><a class="p">| \</a><a class="pr">RangeException </a><a class="p">| \</a><a class="pr">TypeError </a><a class="p">| \</a><a class="pr">Exception </a><a class="p">$exception) {</a><br>
-					<div class="ClassBody">
-						<a class="p">$exceptionType </a><a class="m">= </a><a class="v">get_class</a><a class="p">(exception);</a><br>
-						<a class="m">throw</a><a class="p">(</a><a class="m">new </a><a class="p">$exceptionType($exception-></a><a class="v">getMessage</a><a class="p">(),</a><a class="i"> 0</a><a class="p">, $exception));</a><br>
-					</div>
-					<a class="p">}</a><br>
+					<a class="p">
+						}<br>
+						?&gt;<br></a>
 				</div>
-				<a class="p">
-					}<br>
-					?&gt;<br></a>
 
+				<!-- about me page -->
+				<div id="aboutMePage" style="display: none;">
+					<a class="p">Content coming soon</a>
+				</div>
 
+				<!-- portfolio page -->
+				<div id="portfolioPage" style="display: none;">
+					<div class="PortfolioItem">
+						<div class="ClassContainer">
+							<div class="ClaseIntro">
+								<p class="c">.PersonalWebsite<a Class="p"> {</a></p>
+							</div>
+							<div class="ClassBody"><p>
+								<a Class="pr">Github</a><a class="p">: </a><a
+								class="v">github.com/BeckTimothy/tbeck-pwp-portfolio</a><a class="p">;</a><br>
+								<a Class="pr">Live-View</a><a class="p">: </a><a class="i">TimothyBeck</a><a class="m">.com</a><a
+								class="p">;</a><br>
+								<a Class="pr">Tools-Used</a><a class="p">: </a><a class="v">Javascript, CSS, HTML</a><a
+								class="p">;</a><br>
+								<a Class="pr">Description</a><a class="p">: </a><a class="v">I created this project to outline my
+								skills and resume as a professional developer and to practice my skills using various
+								languages</a><a class="p">;</a><br>
+							</p>
+							</div>
+							<div class="ClassClose">
+								<p class="p">}<br><br></p>
+							</div>
+						</div>
+						<div class="PortfolioImageWrap">
+							<img class="PortfolioImage" src="../../../public_html/documentation/star-wars-lando-calrissian.jpg"
+								  alt="portolio">
+						</div>
+					</div>
+					<!-- class container contains a punch of stylizing rules for the content appended to the page to allow it to appear as psuedo code. Not sure if this is okay to do like this-->
+					<div class="PortfolioItem">
+						<div class="ClassContainer">
+							<div class="ClaseIntro">
+								<p class="c">.VeteranResourceApp<a Class="p"> {</a></p>
+							</div>
+							<div class="ClassBody"><p>
+								<a Class="pr">Github</a><a class="p">: </a><a
+								class="v">github.com/Veteran-Capstone-Group/Veteran-Resource-WebApp</a><a class="p">;</a><br>
+								<a Class="pr">Live-View</a><a class="p">: </a><a class="i">ToBeAnnounced</a><a class="m">.com</a><a
+								class="p">;</a><br>
+								<a Class="pr">Tools-Used</a><a class="p">: </a><a class="v">React.JS, CSS, Bootstrap, HTML, PHP</a><a
+								class="p">;</a><br>
+								<a Class="pr">Description</a><a class="p">: </a><a class="v">John Johnson-Rodgers and I created
+								this webapp to combat homelessness and suicide rates among the veteran population in the
+								Albuquerque area by providing information of helpful social services that may prove useful to
+								someone struggling to integrate into society</a><a class="p">;</a><br>
+							</p>
+							</div>
+							<div class="ClassClose">
+								<p class="p">}<br><br></p>
+							</div>
+						</div>
+						<div class="PortfolioImageWrap">
+							<img class="PortfolioImage" src="../../../public_html/documentation/star-wars-lando-calrissian.jpg"
+								  alt="portolio">
+						</div>
+					</div></div>
 
 
 
