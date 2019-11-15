@@ -125,7 +125,6 @@ function switchToAboutMe() {
 
 	//TODO change mobile nav text
 
-
 	//hide/show different content
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'none';
