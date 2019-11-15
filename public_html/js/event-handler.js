@@ -27,6 +27,12 @@ function switchToResume() {
 	//disable button focus onlcick
 	resumeButton.style.outline = "none";
 
+	//switch z-index of button tabs
+	resumeButton.style.zIndex = "500";
+	portfolioButton.style.zIndex = "400";
+	contactButton.style.zIndex = "300";
+	aboutMeButton.style.zIndex = "200";
+
 	//TODO change mobile nav text
 
 	//remove & append page content
@@ -109,6 +115,12 @@ function switchToPortfolio() {
 	//disable button focus onlcick
 	portfolioButton.style.outline = "none";
 
+	//switch z-index of button tabs
+	resumeButton.style.zIndex = "400";
+	portfolioButton.style.zIndex = "500";
+	contactButton.style.zIndex = "300";
+	aboutMeButton.style.zIndex = "200";
+
 	//TODO change mobile nav text
 
 	//remove & append page content
@@ -134,7 +146,7 @@ function switchToPortfolio() {
 		'\t\t</div>\n' +
 		'\t</div>\n' +
 		'\t<div class="PortfolioImageWrap">\n' +
-		'\t\t<img class="PortfolioImage" src="../../../public_html/documentation/star-wars-lando-calrissian.jpg"\n' +
+		'\t\t<img class="PortfolioImage" src="../media/previewUnavailable.png"\n' +
 		'\t\t\t  alt="portolio">\n' +
 		'\t</div>\n' +
 		'</div>\n' +
@@ -162,7 +174,7 @@ function switchToPortfolio() {
 		'\t\t</div>\n' +
 		'\t</div>\n' +
 		'\t<div class="PortfolioImageWrap">\n' +
-		'\t\t<img class="PortfolioImage" src="../../../public_html/documentation/star-wars-lando-calrissian.jpg"\n' +
+		'\t\t<img class="PortfolioImage" src="../media/previewUnavailable.png"\n' +
 		'\t\t\t  alt="portolio">\n' +
 		'\t</div>\n' +
 		'</div>';
@@ -177,6 +189,12 @@ function switchToContact() {
 
 	//disable button focus onlcick
 	contactButton.style.outline = "none";
+
+	//switch z-index of button tabs
+	resumeButton.style.zIndex = "300";
+	portfolioButton.style.zIndex = "400";
+	contactButton.style.zIndex = "500";
+	aboutMeButton.style.zIndex = "200";
 
 	//TODO change mobile nav text
 
@@ -292,6 +310,12 @@ function switchToAboutMe() {
 
 	//disable button focus onlcick
 	aboutMeButton.style.outline = "none";
+
+	//switch z-index of button tabs
+	resumeButton.style.zIndex = "200";
+	portfolioButton.style.zIndex = "300";
+	contactButton.style.zIndex = "400";
+	aboutMeButton.style.zIndex = "500";
 
 	//TODO change mobile nav text
 
