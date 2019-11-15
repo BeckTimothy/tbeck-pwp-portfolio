@@ -361,3 +361,64 @@ button.btn {
 	background-color: #282923;
 	z-index: -100;
 }
+
+.mobileMenu {
+	display: none;
+}
+
+@media screen and (max-width: 991px) {
+	/* larger tablet styles */
+div.headboard {
+	display: none;
+}
+	.mobileMenu {
+		display: block;
+		position: fixed;
+		height: 35px;
+		width: 100%;
+		z-index: 2;
+		background-color: #6d6e6a;
+	}
+	.mobileMenu > .bg-dark {
+		background-color: #6d6e6a !important;
+	}
+	.mobileMenu >.nav-tabs {
+		border-bottom: none;
+		background-color: #6d6e6a;
+		height: 35px;
+	}
+	.mobileMenu >.bg-dark {
+		background-color: #6d6e6a;
+	}
+	.mobileMenu >.nav-tabs > .nav-item {
+		margin-bottom: 0;
+		height: 35px;
+		background-color: #6d6e6a;
+	}
+	.mobileMenu >.nav-tabs > .nav-item > .nav-link {
+		border-bottom: none;
+		height: 35px;
+		color: #f8f8dc;
+
+	}
+	.mobileMenu >.nav-tabs > .nav-item > .nav-link.active {
+		color: #f8f8dc;
+		background-color: #282923;
+		border-color: #282923;
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* medium tablet styles */
+	div.headboard {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	/* mobile styles */
+	div.headboard {
+		display: none;
+	}
+}
