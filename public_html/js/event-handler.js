@@ -38,3 +38,7 @@ function switchToAboutMe() {
 	//remove page content
 	//append page content
 }
+
+function removePageContent(){
+	
+}
