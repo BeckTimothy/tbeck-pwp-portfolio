@@ -3,7 +3,10 @@ window.onload = function() {
 };
 //remove button focus on click
 function initEventHandling() {
-	//
+	//load elements into variables
+	//create eventlisteners for elements
+	
+
 }
 
 
