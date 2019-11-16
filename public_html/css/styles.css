@@ -47,6 +47,23 @@ a {
 	z-index: 100; 
 }
 
+.socialMediaContainer {
+	position: absolute;
+	right: 0;
+	margin-right: 35px;
+}
+
+.githubImage {
+	max-height: 28px;
+	padding: 0 5px;
+}
+
+.linkedinImage {
+	max-height: 35px;
+	padding: 0 5px;
+}
+
+
 .ResumeButton {
 	position: absolute; 
 	bottom: 0; 
@@ -409,10 +426,47 @@ div.headboard {
 	}
 }
 
+@media screen and (max-width: 1074px) {
+	/*text wrapping needs to start here*/
+
+	.socialMediaContainer {
+		position: absolute;
+		right: 0;
+		margin-right: 30px;
+	}
+
+	.githubImage {
+		max-height: 28px;
+		padding: 0 4px;
+	}
+
+	.linkedinImage {
+		max-height: 35px;
+		padding: 0 4px;
+	}
+}
+
+
 @media screen and (max-width: 767px) {
 	/* medium tablet styles */
 	div.headboard {
 		display: none;
+	}
+
+	.socialMediaContainer {
+		position: absolute;
+		right: 0;
+		margin-right: 25px;
+	}
+
+	.githubImage {
+		max-height: 28px;
+		padding: 0 3px;
+	}
+
+	.linkedinImage {
+		max-height: 35px;
+		padding: 0 3px;
 	}
 }
 
@@ -420,5 +474,21 @@ div.headboard {
 	/* mobile styles */
 	div.headboard {
 		display: none;
+	}
+
+	.socialMediaContainer {
+		position: absolute;
+		right: 0;
+		margin-right: 15px;
+	}
+
+	.githubImage {
+		max-height: 28px;
+		padding: 0 1px;
+	}
+
+	.linkedinImage {
+		max-height: 35px;
+		padding: 0 1px;
 	}
 }
