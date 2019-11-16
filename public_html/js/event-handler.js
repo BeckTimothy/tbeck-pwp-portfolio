@@ -15,17 +15,25 @@ function initEventHandling() {
 	contactFormPage.style.display = 'none';
 	aboutMePage.style.dispay = 'none';
 
-	//load elements into variables
+	//load button elements into variables
 	let resumeButton = document.getElementById("resumeButton");
 	let portfolioButton = document.getElementById("portfolioButton");
 	let contactButton = document.getElementById("contactButton");
 	let aboutMeButton = document.getElementById("aboutMeButton");
+	let mobileResumeButton = document.getElementById("resumeButtonMobile");
+	let mobilePortfolioButton = document.getElementById("portfolioButtonMobile");
+	let mobileContactButton = document.getElementById("contactButtonMobile");
+	let mobileAboutMeButton = document.getElementById("aboutMeButtonMobile");
 
 	//create eventlisteners for elements
 	resumeButton.addEventListener('click', () => {switchToResume();});
+	mobileResumeButton.addEventListener('click', () => {switchToResume();});
 	portfolioButton.addEventListener('click', () => {switchToPortfolio();});
+	mobilePortfolioButton.addEventListener('click', () => {switchToPortfolio();});
 	contactButton.addEventListener('click', () => {switchToContact();});
+	mobileContactButton.addEventListener('click', () => {switchToContact();});
 	aboutMeButton.addEventListener('click', () => {switchToAboutMe();});
+	mobileAboutMeButton.addEventListener('click', () => {switchToAboutMe();});
 }
 
 
