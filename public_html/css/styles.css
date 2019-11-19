@@ -5,7 +5,7 @@ h1 {
 body {
 	position: relative; 
 	margin: 0; 
-	color: #282923;
+	background-color: #282923;
 	font-family: monospace, serif; 
 	font-size: 16px;
 }
@@ -430,7 +430,7 @@ div.headboard {
 		height: 35px;
 	}
 }
-/*
+
 @media only screen and (max-width: 1074px) and (min-width: 768px) {
 	/*text wrapping needs to start here*/
 
@@ -481,6 +481,9 @@ div.headboard {
 
 	div.headboard {
 		display: none;
+	}
+	.nav-link {
+		padding: 0.5rem;
 	}
 
 	div.socialMediaContainer {
