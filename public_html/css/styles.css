@@ -5,7 +5,7 @@ h1 {
 body {
 	position: relative; 
 	margin: 0; 
-	color: #fff; 
+	color: #282923;
 	font-family: monospace, serif; 
 	font-size: 16px;
 }
@@ -212,6 +212,10 @@ a {
 	word-break: keep-all;
 	padding: 0;
 	margin:	0;
+}
+#widePara {/*wide paragraphs that need text wrapping forced to make content more similarly sized*/
+	display: block;
+	max-width: 1000px;
 }
 .c {/*.Class*/
 	font-family: monospace;
@@ -425,14 +429,15 @@ div.headboard {
 		height: 35px;
 	}
 }
-
-@media screen and (max-width: 1074px) {
+/*
+@media only screen and (max-width: 1074px) and (min-width: 768px) {
 	/*text wrapping needs to start here*/
 
 	.socialMediaContainer {
 		position: absolute;
 		right: 0;
 		margin-right: 30px;
+		top: 0;
 	}
 
 	.githubImage {
@@ -447,7 +452,7 @@ div.headboard {
 }
 
 
-@media screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px)  {
 	/* medium tablet styles */
 	div.headboard {
 		display: none;
@@ -470,8 +475,27 @@ div.headboard {
 	}
 }
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
 	/* mobile styles */
+	/*.main {
+		padding-left: 55px;
+	}
+	.LineNumWindow {
+		width: 55px;
+		top: -13px;
+	}
+	.nav-item {
+		height: 60px;
+	}
+	.nav {
+		height:60px;
+	}
+	.mobileMenu {
+		height: 60px;
+	}
+	.Content {
+		padding-top: 60px;
+	}*/
 	div.headboard {
 		display: none;
 	}
