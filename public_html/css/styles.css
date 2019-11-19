@@ -51,6 +51,7 @@ a {
 	position: absolute;
 	right: 0;
 	margin-right: 35px;
+	z-index: 800;
 }
 
 .githubImage {
@@ -477,32 +478,21 @@ div.headboard {
 
 @media only screen and (max-width: 479px) {
 	/* mobile styles */
-	/*.main {
-		padding-left: 55px;
-	}
-	.LineNumWindow {
-		width: 55px;
-		top: -13px;
-	}
-	.nav-item {
-		height: 60px;
-	}
-	.nav {
-		height:60px;
-	}
-	.mobileMenu {
-		height: 60px;
-	}
-	.Content {
-		padding-top: 60px;
-	}*/
+
 	div.headboard {
 		display: none;
 	}
 
-	.socialMediaContainer {
-		position: absolute;
+	div.socialMediaContainer {
+		position: fixed;
+		border-radius: 8px 8px 0 0;
+		padding-left: 3px;
+		bottom: 0;
 		right: 0;
+		top: auto;
+		height: 35px;
+		max-width: 90px;
+		background-color: #6d6e6a;
 		margin-right: 15px;
 	}
 
