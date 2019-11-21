@@ -26,7 +26,7 @@ RUN rm /var/www/html/index.html
 
 COPY public_html var/www/html
 
-COPY public_html/php/index.php /var/www/php
+COPY php/index.php /var/www/php
 
 COPY php/composer.json /var/www
 
