@@ -12,7 +12,7 @@
 require_once("vendor/autoload.php");
 
 // require mail-config.php
-require_once("mail-config.php");
+require_once("../../php/mail-config.php");
 
 use Mailgun\Mailgun;
 use ReCaptcha\ReCaptcha;
