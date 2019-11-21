@@ -14,7 +14,7 @@ $(document).ready(function() {
 	 **/
 
 	/* begin validate function here */
-	$("#Timothy-Beck-form").validate({
+	$("#timothy-beck-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -55,9 +55,9 @@ $(document).ready(function() {
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#Timothy-Beck-form").ajaxSubmit({
+			$("#timothy-beck-form").ajaxSubmit({
 				type: "POST",
-				url: $("#Timothy-Beck-form").attr("action"),
+				url: $("#timothy-beck-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#Timothy-Beck-form")[0].reset();
+						$("#timothy-beck-form")[0].reset();
 					}
 				}
 			})

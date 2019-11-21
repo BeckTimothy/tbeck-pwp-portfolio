@@ -179,8 +179,11 @@ function switchToContact() {
 	contactFormPage.style.display = 'block';
 	aboutMePage.style.dispay = 'none';
 
+	/*
 	//reset recaptcha
 	grecaptcha.getScript("https://www.google.com/recaptcha/api.js");
+	*/
+
 }
 
 function switchToAboutMe() {
