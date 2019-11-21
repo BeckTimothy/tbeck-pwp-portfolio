@@ -509,3 +509,22 @@ div.headboard {
 		padding: 0 1px;
 	}
 }
+
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+	.PortfolioItem	{
+		flex-direction: column;
+	}
+	.PortfolioImage {
+		margin-bottom: 13px;
+	}
+	.ClassBody > .ClassBody {
+		border-left: none;
+		padding: 0;
+	}
+	a {
+		word-break: break-word;
+	}
+	.input-group {
+		width: 95%;
+	}
+}
