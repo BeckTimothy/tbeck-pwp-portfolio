@@ -222,11 +222,12 @@ function switchToAboutMe() {
 		document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 	}
 
+	console.log('test success');
 	//hide/show different content
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'none';
 	contactFormPage.style.display = 'none';
-	aboutMePage.style.dispay = 'block';
+	aboutMePage.style.display = 'block';
 
 
 	/*

@@ -182,6 +182,11 @@ a {
 	height: 140px;
 	border: #282923 4px solid;
 }
+.aboutMeImage {
+	max-width: 50vw;
+	border: #282923 5px solid;
+	align-self: center;
+}
 .ClassContainer{
 	display: flex;
 	flex-direction: column;
@@ -190,6 +195,8 @@ a {
 }
 div#aboutPage > div.ClassContainer {
 	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
 }
 .ClassIntro {
 	padding: 0;
@@ -458,6 +465,13 @@ div.headboard {
 	}
 	div#aboutPage > div.ClassContainer {
 		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.aboutMeImage {
+		max-width: 66vw;
+		border: #282923 5px solid;
+		align-self: center;
 	}
 }
 
@@ -482,6 +496,16 @@ div.headboard {
 	.linkedinImage {
 		max-height: 35px;
 		padding: 0 3px;
+	}
+	div#aboutPage > div.ClassContainer {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.aboutMeImage {
+		max-width: 66vw;
+		border: #282923 5px solid;
+		align-self: center;
 	}
 }
 
@@ -517,6 +541,16 @@ div.headboard {
 		max-height: 35px;
 		padding: 0 1px;
 	}
+	div#aboutPage > div.ClassContainer {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.aboutMeImage {
+		max-width: 75vw;
+		border: #282923 5px solid;
+		align-self: center;
+	}
 }
 
 @media only screen and (max-width: 479px) and (orientation: portrait) {
@@ -535,5 +569,15 @@ div.headboard {
 	}
 	.input-group {
 		width: 95%;
+	}
+	div#aboutPage > div.ClassContainer {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.aboutMeImage {
+		max-width: 75vw;
+		border: #282923 5px solid;
+		align-self: center;
 	}
 }
