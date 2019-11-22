@@ -188,6 +188,9 @@ a {
 	justify-content: flex-start;
 	align-content: flex-start;
 }
+div#aboutPage > div.ClassContainer {
+	flex-direction: row;
+}
 .ClassIntro {
 	padding: 0;
 	margin:	0;
@@ -452,6 +455,9 @@ div.headboard {
 	.linkedinImage {
 		max-height: 35px;
 		padding: 0 4px;
+	}
+	div#aboutPage > div.ClassContainer {
+		flex-direction: column;
 	}
 }
 
