@@ -215,7 +215,11 @@ a {
 	margin:	0;
 }
 #widePara {/*wide paragraphs that need text wrapping forced to make content more similarly sized*/
+	display: block;
 	max-width: 1000px;
+}
+#widePara > div {/*hacky fix for comma after widepara*/
+	display: inline;
 }
 .c {/*.Class*/
 	font-family: monospace;
