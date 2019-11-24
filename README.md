@@ -25,3 +25,8 @@ Your content strategy and wire frames have good detail.
 Keep up the good work.
 
 const milestoneTwoGrade = "Tier 4"
+
+## Milestone 3 Feedback
+Creative and unique. Looking forward to the finished product.
+
+let milestoneThreeGrade = 4
