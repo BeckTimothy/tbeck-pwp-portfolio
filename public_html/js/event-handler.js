@@ -13,7 +13,7 @@ function initEventHandling() {
 	resumePage.style.display = 'block';
 	portfolioPage.style.display = 'none';
 	contactFormPage.style.display = 'none';
-	aboutMePage.style.dispay = 'none';
+	aboutMePage.style.display = 'none';
 
 	//load button elements into variables
 	let resumeButton = document.getElementById("resumeButton");
@@ -90,7 +90,7 @@ function switchToResume() {
 	resumePage.style.display = 'block';
 	portfolioPage.style.display = 'none';
 	contactFormPage.style.display = 'none';
-	aboutMePage.style.dispay = 'none';
+	aboutMePage.style.display = 'none';
 }
 
 function switchToPortfolio() {
@@ -134,7 +134,7 @@ function switchToPortfolio() {
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'block';
 	contactFormPage.style.display = 'none';
-	aboutMePage.style.dispay = 'none';
+	aboutMePage.style.display = 'none';
 }
 
 function switchToContact() {
@@ -177,7 +177,7 @@ function switchToContact() {
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'none';
 	contactFormPage.style.display = 'block';
-	aboutMePage.style.dispay = 'none';
+	aboutMePage.style.display = 'none';
 
 	/*
 	//reset recaptcha
