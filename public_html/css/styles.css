@@ -91,11 +91,18 @@ a {
 }
 
 .AboutButton {
-	position: absolute; 
-	bottom: 0; 
-	left: 537px; 
-	z-index: 200; 
+	position: absolute;
+	bottom: 0;
+	left: 373px;
+	z-index: 200;
 }
+
+/*.AboutButton {*/
+/*	position: absolute; */
+/*	bottom: 0; */
+/*	left: 537px; */
+/*	z-index: 200; */
+/*}*/
 
 /*Blog is out of scope at the moment and will be added in when I find time between other projects*/
 .BlogButton {

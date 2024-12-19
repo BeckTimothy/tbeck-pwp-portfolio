@@ -6,34 +6,34 @@ function initEventHandling() {
 	//parts of page to hide/show
 	let resumePage = document.getElementById("resumePage");
 	let portfolioPage = document.getElementById("portfolioPage");
-	let contactFormPage =document.getElementById("contactFormPage");
+	//let contactFormPage =document.getElementById("contactFormPage");
 	let aboutMePage = document.getElementById("aboutMePage");
 
 	//hide/show different parts of page
 	resumePage.style.display = 'block';
 	portfolioPage.style.display = 'none';
-	contactFormPage.style.display = 'none';
+	//contactFormPage.style.display = 'none';
 	aboutMePage.style.display = 'none';
 
 	//load button elements into variables
 	let resumeButton = document.getElementById("resumeButton");
 	let portfolioButton = document.getElementById("portfolioButton");
-	let contactButton = document.getElementById("contactButton");
+	//let contactButton = document.getElementById("contactButton");
 	let aboutMeButton = document.getElementById("aboutMeButton");
 	let mobileResumeButton = document.getElementById("resumeButtonMobile");
 	let mobilePortfolioButton = document.getElementById("portfolioButtonMobile");
-	let mobileContactButton = document.getElementById("contactButtonMobile");
+	//let mobileContactButton = document.getElementById("contactButtonMobile");
 	let mobileAboutMeButton = document.getElementById("aboutMeButtonMobile");
 
 	//checks if mobile buttons are active, returns true/false
 	let resumeCheck = document.getElementById("resumeButtonMobile").classList.contains("active");
 	let portfolioCheck = document.getElementById("portfolioButtonMobile").classList.contains("active");
-	let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
+	//let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
 	let aboutCheck = document.getElementById("aboutMeButtonMobile").classList.contains("active");
 
 	//toggle off mobile buttons
 	document.getElementById("portfolioButtonMobile").classList.toggle("active");
-	document.getElementById("contactButtonMobile").classList.toggle("active");
+	//document.getElementById("contactButtonMobile").classList.toggle("active");
 	document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 
 
@@ -42,8 +42,8 @@ function initEventHandling() {
 	mobileResumeButton.addEventListener('click', () => {switchToResume();});
 	portfolioButton.addEventListener('click', () => {switchToPortfolio();});
 	mobilePortfolioButton.addEventListener('click', () => {switchToPortfolio();});
-	contactButton.addEventListener('click', () => {switchToContact();});
-	mobileContactButton.addEventListener('click', () => {switchToContact();});
+	//contactButton.addEventListener('click', () => {switchToContact();});
+	//mobileContactButton.addEventListener('click', () => {switchToContact();});
 	aboutMeButton.addEventListener('click', () => {switchToAboutMe();});
 	mobileAboutMeButton.addEventListener('click', () => {switchToAboutMe();});
 }
@@ -53,20 +53,20 @@ function switchToResume() {
 	//change button images
 	resumeButton.src="../media/resumeActive.PNG";
 	portfolioButton.src="../media/portfolioInactive.PNG";
-	contactButton.src="../media/contactInactive.png";
+	//contactButton.src="../media/contactInactive.png";
 	aboutMeButton.src="../media/aboutmeInactive.png";
 
 	//switch z-index of button tabs
 	resumeButton.style.zIndex = "500";
 	portfolioButton.style.zIndex = "400";
-	contactButton.style.zIndex = "300";
+	//contactButton.style.zIndex = "300";
 	aboutMeButton.style.zIndex = "200";
 
 
 	//checks if mobile buttons are active, returns true/false
 	let resumeCheck = document.getElementById("resumeButtonMobile").classList.contains("active");
 	let portfolioCheck = document.getElementById("portfolioButtonMobile").classList.contains("active");
-	let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
+	//let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
 	let aboutCheck = document.getElementById("aboutMeButtonMobile").classList.contains("active");
 
 	//switch classes for mobile button tabs if they aren't already the correct classes
@@ -76,9 +76,9 @@ function switchToResume() {
 	if(portfolioCheck === true) {
 		document.getElementById("portfolioButtonMobile").classList.toggle("active");
 	}
-	if(contactCheck === true) {
-		document.getElementById("contactButtonMobile").classList.toggle("active");
-	}
+	//if(contactCheck === true) {
+	//	document.getElementById("contactButtonMobile").classList.toggle("active");
+	//}
 	if(aboutCheck === true) {
 		document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 	}
@@ -89,7 +89,7 @@ function switchToResume() {
 	//hide/show different parts of page
 	resumePage.style.display = 'block';
 	portfolioPage.style.display = 'none';
-	contactFormPage.style.display = 'none';
+	//contactFormPage.style.display = 'none';
 	aboutMePage.style.display = 'none';
 }
 
@@ -97,7 +97,7 @@ function switchToPortfolio() {
 	//change button images
 	resumeButton.src="../media/resumeInactive.PNG";
 	portfolioButton.src="../media/portfolioActive.PNG";
-	contactButton.src="../media/contactInactive.png";
+	//contactButton.src="../media/contactInactive.png";
 	aboutMeButton.src="../media/aboutmeInactive.png";
 
 	//disable button focus onlcick
@@ -106,14 +106,14 @@ function switchToPortfolio() {
 	//switch z-index of button tabs
 	resumeButton.style.zIndex = "400";
 	portfolioButton.style.zIndex = "500";
-	contactButton.style.zIndex = "300";
+	//contactButton.style.zIndex = "300";
 	aboutMeButton.style.zIndex = "200";
 
 
 	//checks if mobile buttons are active, returns true/false
 	let resumeCheck = document.getElementById("resumeButtonMobile").classList.contains("active");
 	let portfolioCheck = document.getElementById("portfolioButtonMobile").classList.contains("active");
-	let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
+	//let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
 	let aboutCheck = document.getElementById("aboutMeButtonMobile").classList.contains("active");
 
 	//switch classes for mobile button tabs if they aren't already the correct classes
@@ -123,9 +123,9 @@ function switchToPortfolio() {
 	if(portfolioCheck === false) {
 		document.getElementById("portfolioButtonMobile").classList.toggle("active");
 	}
-	if(contactCheck === true) {
-		document.getElementById("contactButtonMobile").classList.toggle("active");
-	}
+	//if(contactCheck === true) {
+	//	document.getElementById("contactButtonMobile").classList.toggle("active");
+	//}
 	if(aboutCheck === true) {
 		document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 	}
@@ -133,7 +133,7 @@ function switchToPortfolio() {
 	//hide/show different parts of page
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'block';
-	contactFormPage.style.display = 'none';
+	//contactFormPage.style.display = 'none';
 	aboutMePage.style.display = 'none';
 }
 
@@ -141,22 +141,22 @@ function switchToContact() {
 	//change button images
 	resumeButton.src="../media/resumeInactive.PNG";
 	portfolioButton.src="../media/portfolioInactive.PNG";
-	contactButton.src="../media/contactActive.png";
+	//contactButton.src="../media/contactActive.png";
 	aboutMeButton.src="../media/aboutmeInactive.png";
 
 	//disable button focus onlcick
-	contactButton.style.outline = "none";
+	//contactButton.style.outline = "none";
 
 	//switch z-index of button tabs
 	resumeButton.style.zIndex = "300";
 	portfolioButton.style.zIndex = "400";
-	contactButton.style.zIndex = "500";
+	//contactButton.style.zIndex = "500";
 	aboutMeButton.style.zIndex = "200";
 
 	//checks if mobile buttons are active, returns true/false
 	let resumeCheck = document.getElementById("resumeButtonMobile").classList.contains("active");
 	let portfolioCheck = document.getElementById("portfolioButtonMobile").classList.contains("active");
-	let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
+	//let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
 	let aboutCheck = document.getElementById("aboutMeButtonMobile").classList.contains("active");
 
 	//switch classes for mobile button tabs if they aren't already the correct classes
@@ -166,9 +166,9 @@ function switchToContact() {
 	if(portfolioCheck === true) {
 		document.getElementById("portfolioButtonMobile").classList.toggle("active");
 	}
-	if(contactCheck === false) {
-		document.getElementById("contactButtonMobile").classList.toggle("active");
-	}
+	//if(contactCheck === false) {
+	//	document.getElementById("contactButtonMobile").classList.toggle("active");
+	//}
 	if(aboutCheck === true) {
 		document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 	}
@@ -176,7 +176,7 @@ function switchToContact() {
 	//hide/show different parts of page
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'none';
-	contactFormPage.style.display = 'block';
+	//contactFormPage.style.display = 'block';
 	aboutMePage.style.display = 'none';
 
 	/*
@@ -190,7 +190,7 @@ function switchToAboutMe() {
 	//change button images
 	resumeButton.src="../media/resumeInactive.PNG";
 	portfolioButton.src="../media/portfolioInactive.PNG";
-	contactButton.src="../media/contactInactive.png";
+	//contactButton.src="../media/contactInactive.png";
 	aboutMeButton.src="../media/aboutmeActive.png";
 
 	//disable button focus onlcick
@@ -199,13 +199,13 @@ function switchToAboutMe() {
 	//switch z-index of button tabs
 	resumeButton.style.zIndex = "200";
 	portfolioButton.style.zIndex = "300";
-	contactButton.style.zIndex = "400";
+	//contactButton.style.zIndex = "400";
 	aboutMeButton.style.zIndex = "500";
 
 	//checks if mobile buttons are active, returns true/false
 	let resumeCheck = document.getElementById("resumeButtonMobile").classList.contains("active");
 	let portfolioCheck = document.getElementById("portfolioButtonMobile").classList.contains("active");
-	let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
+	//let contactCheck = document.getElementById("contactButtonMobile").classList.contains("active");
 	let aboutCheck = document.getElementById("aboutMeButtonMobile").classList.contains("active");
 
 	//switch classes for mobile button tabs if they aren't already the correct classes
@@ -215,9 +215,9 @@ function switchToAboutMe() {
 	if(portfolioCheck === true) {
 		document.getElementById("portfolioButtonMobile").classList.toggle("active");
 	}
-	if(contactCheck === true) {
-		document.getElementById("contactButtonMobile").classList.toggle("active");
-	}
+	//if(contactCheck === true) {
+	//	document.getElementById("contactButtonMobile").classList.toggle("active");
+	//}
 	if(aboutCheck === false) {
 		document.getElementById("aboutMeButtonMobile").classList.toggle("active");
 	}
@@ -226,7 +226,7 @@ function switchToAboutMe() {
 	//hide/show different content
 	resumePage.style.display = 'none';
 	portfolioPage.style.display = 'none';
-	contactFormPage.style.display = 'none';
+	//contactFormPage.style.display = 'none';
 	aboutMePage.style.display = 'block';
 
 
