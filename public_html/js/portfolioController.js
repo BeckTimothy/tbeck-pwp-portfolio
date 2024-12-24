@@ -22,33 +22,27 @@ fetch("./data/portfolio.json")
             }else return;
             //github
             if(project.hasOwnProperty('github') && project.github !== null){
-                thisProject+=`<a class="pr">Github</a>
-                                <a class="p">: </a>
+                thisProject+=`<a class="pr">Github</a><a class="p">: </a>
                                 <a class="v"
-                                   href="${project.github}">${project.github}</a>
-                                <a class="p">;</a>
+                                   href="${project.github}">${project.github}</a><a class="p">;</a>
                                 <br>`
             }
             //project link
             if(hasLive){
                 thisProject+=`<a class="pr">Live-View</a><a class="p">: </a>
-                                <a class="i" href="${project.live}">${project.live}</a>
-                                <a class="p">;</a><br>`
+                                <a class="i" href="${project.live}">${project.live}</a><a class="p">;</a><br>`
             } else if(hasDemo){
                 thisProject+=`<a Class="pr">Demo-View</a><a class="p">: </a>
-                                <a class="i" href="${project.demo}">${project.demo}</a>
-                                <a class="p">;</a><br>`
+                                <a class="i" href="${project.demo}">${project.demo}</a><a class="p">;</a><br>`
             } else if(hasArchive){
                 thisProject+=`<a Class="pr">Archive-View</a><a class="p">: </a>
-                                <a class="i" href="${project.archive}">${project.archive}</a>
-                                <a class="p">;</a><br>`
+                                <a class="i" href="${project.archive}">${project.archive}</a><a class="p">;</a><br>`
             }
             //tools
             if(project.hasOwnProperty('toolsUsed') && project.toolsUsed !== null){
                 let tools = project.toolsUsed.join(", ")
                 thisProject+=`<a Class="pr">Tools-Used</a><a class="p">: </a>
-                                <a class="v">${tools}</a>
-                                <a class="p">;</a><br>`
+                                <a class="v">${tools}</a><a class="p">;</a><br>`
             }
             //description
             if(project.hasOwnProperty('description') && project.description !== null){
@@ -59,7 +53,7 @@ fetch("./data/portfolio.json")
             //image (add image src to json)
             if(project.hasOwnProperty('image') && project.image !== null){
                 thisProject+=`<div class="PortfolioImageWrap">
-                <img class="PortfolioImage" src="media/${project.image}" alt="portolio"/></div></div>`
+                <img class="PortfolioImage" src="media/${project.image}" alt="${project.hasOwnProperty('imageAlt') && project.imageAlt !== null?project.imageAlt:"portfolio image"}"/></div></div>`
             }else{
                 thisProject+=`<div class="PortfolioImageWrap"></div></div>`
             }

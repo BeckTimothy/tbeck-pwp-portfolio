@@ -1,13 +1,47 @@
 [
   {
-    "name": "VeteranResourceApp",
-    "github": "github.com/Veteran-Capstone-Group/Veteran-Resource-WebApp",
+    "name": "Chikyu",
+    "github": "https://github.com/BasilixTechnologies/hedera-hackathon",
     "live": null,
     "demo": null,
     "archive": null,
-    "image": "capstone-preview.png",
-    "toolsUsed": ["React", "Axios", "Redux", "MySQL", "CSS", "Bootstrap", "HTML", "PHP", "PHPUnit", "Composer"],
-    "description": "Worked with a team to create a web application that provides Veterans with resources to help them integrate back into society and combat homelessness and suicide rates among the veteran population, by creating numerous classes in PHP, an API to access them, and providing unit testing to ensure functions return the expected results."
+    "image": "chikyu.png",
+    "imagAlt": "landing page with sign-in buttons",
+    "toolsUsed": ["Javascript", "TypeScript", "React", "CSS", "Chakra UI", "GoLang", "Hedera"],
+    "description": "A React, Typescript, and Go decentralized WebApp entry into a hackathon serving as a tool to crowdsource cleaning up trash in local open spaces by providing crypto-currency rewards."
+  },
+  {
+    "name": "SingleSPA-Demo",
+    "github": "https://github.com/BeckTimothy/single-spa-demo",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "singleSpa.png",
+    "imagAlt": null,
+    "toolsUsed": ["SingleSPA", "React", "Vue", "JavaScript"],
+    "description": "A demo project to familiarize myself with Single-SPA, where I built a webpage rendering both React and Vue components to the DOM. Traditionally, utilized for front-end microservices; I was having fun with the tech while learning about how it renders multiple SPA frameworks to the DOM."
+  },
+  {
+    "name": "StateJobBoardScraper",
+    "github": "https://github.com/BeckTimothy/StateJobBoard",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "stateJobBoard.png",
+    "imagAlt": null,
+    "toolsUsed": ["React", "JavaScript"],
+    "description": "A simple React SPA that retrieves information from the New Mexico Sunshine portal for every department of the state and filters out filled positions, leaving a list of vacant and funded positions for state jobs. As an alternative to applying to listed jobs, this enables eager developers to hunt for unlisted jobs with no competition."
+  },
+  {
+    "name": "RedditVolition",
+    "github": "https://github.com/BeckTimothy/reddit-volition",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "volitionMenu.png",
+    "imagAlt": "screenshot of an extension popover",
+    "toolsUsed": ["Javascript", "React", "CSS", "bootstrap", "ManifestV3"],
+    "description": "A Chrome extension that removes several key reddit features from the user's view as these features may be percieved as toxic, manipulative, and contribute to systematically warping a persons mind."
   },
   {
   "name": "PersonalWebsite",
@@ -15,8 +49,20 @@
   "live": "TimothyBeck.com",
   "demo": null,
   "archive": null,
-    "image": "portfolio-preview.png",
+  "image": "portfolio-preview.png",
+  "imagAlt": "portfolio website which looks like a code editor",
   "toolsUsed": ["Javascript", "CSS", "HTML", "Composer", "Swiftmailer", "Mailgun", "Bootstrap"],
   "description": "Utilizing Javascript and CSS, I stylized a single page website to take on the appearance of a code editor, providing professional information about my career in web development, and leveraging Swift Mailer to allow users to contact me by email through an online form."
+  },
+  {
+    "name": "VeteranResourceApp",
+    "github": "github.com/Veteran-Capstone-Group/Veteran-Resource-WebApp",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "capstone-preview.png",
+    "imagAlt": "website which provides resources and social services information",
+    "toolsUsed": ["React", "Redux", "MySQL", "CSS", "Bootstrap", "PHP", "PHPUnit", "Composer"],
+    "description": "Worked with a team to create a web application that provides Veterans with resources to help them integrate back into society and combat homelessness and suicide rates among the veteran population, by creating numerous classes in PHP, an API to access them, and providing unit testing to ensure functions return the expected results."
   }
 ]
