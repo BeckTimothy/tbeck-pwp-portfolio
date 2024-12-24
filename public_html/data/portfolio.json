@@ -1,0 +1,22 @@
+[
+  {
+    "name": "VeteranResourceApp",
+    "github": "github.com/Veteran-Capstone-Group/Veteran-Resource-WebApp",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "capstone-preview.png",
+    "toolsUsed": ["React", "Axios", "Redux", "MySQL", "CSS", "Bootstrap", "HTML", "PHP", "PHPUnit", "Composer"],
+    "description": "Worked with a team to create a web application that provides Veterans with resources to help them integrate back into society and combat homelessness and suicide rates among the veteran population, by creating numerous classes in PHP, an API to access them, and providing unit testing to ensure functions return the expected results."
+  },
+  {
+  "name": "PersonalWebsite",
+  "github": "github.com/BeckTimothy/tbeck-pwp-portfolio",
+  "live": "TimothyBeck.com",
+  "demo": null,
+  "archive": null,
+    "image": "portfolio-preview.png",
+  "toolsUsed": ["Javascript", "CSS", "HTML", "Composer", "Swiftmailer", "Mailgun", "Bootstrap"],
+  "description": "Utilizing Javascript and CSS, I stylized a single page website to take on the appearance of a code editor, providing professional information about my career in web development, and leveraging Swift Mailer to allow users to contact me by email through an online form."
+  }
+]

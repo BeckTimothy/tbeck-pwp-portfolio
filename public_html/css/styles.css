@@ -341,7 +341,7 @@ a:not([href]):not([tabindex]).s {
 a:not([href]):not([tabindex]).pr {
 	line-height: normal;
 	font-style: italic;
-	color: #67d8ef;
+	color: #fff;
 }
 a:not([href]):not([tabindex]).pb {
 	line-height: normal;
