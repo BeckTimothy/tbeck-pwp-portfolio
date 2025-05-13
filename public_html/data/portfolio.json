@@ -1,5 +1,16 @@
 [
   {
+    "name": "LowtechsAnonymousWebring",
+    "github": "https://github.com/BeckTimothy/LowtechsAnonymous",
+    "live": null,
+    "demo": null,
+    "archive": null,
+    "image": "lowtechsAnonymous.gif",
+    "imagAlt": "landing page with cyberpunk styling and scanlines emulating a crt monitor",
+    "toolsUsed": ["Next.js","Javascript", "TypeScript", "React", "CSS"],
+    "description": "A Next.js, React, and Typescript WebApp with a cyberpunk theme detailing information about an event and operating a webring/redirection for the group's projects"
+  },
+  {
     "name": "Chikyu",
     "github": "https://github.com/BasilixTechnologies/hedera-hackathon",
     "live": null,
