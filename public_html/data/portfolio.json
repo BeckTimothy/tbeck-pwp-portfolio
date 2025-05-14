@@ -2,7 +2,7 @@
   {
     "name": "LowtechsAnonymousWebring",
     "github": "https://github.com/BeckTimothy/LowtechsAnonymous",
-    "live": "LowtechsAnonymous.com",
+    "live": "https://LowtechsAnonymous.com",
     "demo": null,
     "archive": null,
     "image": "lowtechsAnonymous.gif",
@@ -57,7 +57,7 @@
   {
   "name": "PersonalWebsite",
   "github": "github.com/BeckTimothy/tbeck-pwp-portfolio",
-  "live": "TimothyBeck.com",
+  "live": "https://TimothyBeck.com",
   "demo": null,
   "archive": null,
   "image": "portfolio-preview.png",
