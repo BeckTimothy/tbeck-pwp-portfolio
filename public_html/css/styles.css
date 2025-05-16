@@ -23,6 +23,7 @@ a {
 /*text primary color = #908463 */
 #webringWrapper{
 	display: inline-block;
+	vertical-align: middle;
 }
 #webring{
 	display: flex;
@@ -35,13 +36,16 @@ a {
 	text-decoration:none;
 	font-weight: bold;
 	color:#B1B3B6;
-
+	border: 1px solid #B1B3B6;
+	padding: 0.1rem;
+	border-radius: 3px;
+	line-height: 1.1rem;
 }
-#webringCenterLink{
+.webringCenterLink{
 	text-decoration:none;
 	color:#B1B3B6;
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding: 0.1rem 1rem 0.1rem 1rem;
+	line-height: 1.1rem;
 }
 .headboard {
 	position: fixed; 
