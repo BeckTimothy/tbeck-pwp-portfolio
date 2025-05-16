@@ -21,7 +21,28 @@ a {
 /*BG color = #282923 */
 /*highlighted BG color = #3e3d32 */
 /*text primary color = #908463 */
+#webringWrapper{
+	display: inline-block;
+}
+#webring{
+	display: flex;
+	max-width: 400px;
+	min-width:35%;
+	justify-self: center;
+	justify-content: space-around;
+}
+.webringSideLink{
+	text-decoration:none;
+	font-weight: bold;
+	color:#B1B3B6;
 
+}
+#webringCenterLink{
+	text-decoration:none;
+	color:#B1B3B6;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
 .headboard {
 	position: fixed; 
 	width: 100%; 
