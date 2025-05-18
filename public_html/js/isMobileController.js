@@ -2,7 +2,7 @@
 
 
 
-if (window.screen.width < 1000){
+if (window.screen.width < 1000 || window.visualViewport.width < 1000){
     let webringPrevLinkElement = document.getElementById("webringPrevLink");
     let webringCenterLinkElement = document.getElementById("webringCenterLink");
     let webringNextLinkElement = document.getElementById("webringNextLink");
