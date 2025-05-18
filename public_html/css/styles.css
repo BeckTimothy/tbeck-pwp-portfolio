@@ -563,16 +563,26 @@ div.headboard {
 	div.socialMediaContainer {
 		position: fixed;
 		border-radius: 8px 8px 0 0;
-		padding-left: 3px;
+		/*padding-left: 3px;*/
 		bottom: 0;
 		right: 0;
 		top: auto;
 		height: 35px;
-		max-width: 90px;
+		/*max-width: 90px;*/
 		background-color: #6d6e6a;
 		margin-right: 15px;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
 	}
-
+	div.socialMediaContainer > a {
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+	}
+	div.socialMediaContainer > #webringWrapper {
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+	}
 	.githubImage {
 		max-height: 28px;
 		padding: 0 1px;
