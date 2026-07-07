@@ -63,3 +63,108 @@ fetch("./data/portfolio.json")
         //inject portfolio into DOM
         portfolioDOM.innerHTML = portfolioElements;
     })
+
+
+/**
+ * Domain-for-sale corner ribbon.
+ * Call showDomainSaleBanner() inside your existing conditional.
+ * Injects its own styles once and appends the banner to <body>.
+ */
+function showDomainSaleBanner() {
+  // Guard: don't inject twice
+  if (document.getElementById("domain-sale-wrap")) return;
+
+  var css = `
+    .domain-sale-wrap {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 160px;
+      height: 160px;
+      overflow: hidden;
+      z-index: 9999;
+      pointer-events: none;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.30));
+    }
+    .domain-sale-ribbon {
+      --ribbon-bg: #1a1a2e;
+      --ribbon-accent: #e9b44c;
+      pointer-events: auto;
+      position: absolute;
+      display: block;
+      width: 225px;
+      left: -20px;
+      top: 52px;
+      transform: rotate(45deg);
+      padding: 9px 0;
+      background: var(--ribbon-bg);
+      color: var(--ribbon-accent);
+      font-family: "Georgia", "Times New Roman", serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      line-height: 1;
+      border-top: 1px solid var(--ribbon-accent);
+      border-bottom: 1px solid var(--ribbon-accent);
+      transition: filter 0.2s ease;
+    }
+    .domain-sale-ribbon:hover,
+    .domain-sale-ribbon:focus-visible {
+      filter: brightness(1.25);
+    }
+    .domain-sale-ribbon:focus-visible {
+      outline: 2px solid var(--ribbon-accent);
+      outline-offset: 2px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .domain-sale-ribbon { transition: none; }
+    }
+    @media (max-width: 600px) {
+      .domain-sale-wrap {
+        width: auto;
+        height: auto;
+        overflow: visible;
+        top: 10px;
+        right: 10px;
+      }
+      .domain-sale-ribbon {
+        position: static;
+        width: auto;
+        transform: none;
+        padding: 8px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--ribbon-accent);
+        font-size: 11px;
+      }
+    }
+  `;
+
+  // Append the styles
+  var style = document.createElement("style");
+  style.id = "domain-sale-styles";
+  style.textContent = css;
+  document.head.appendChild(style);
+
+  // Build the banner
+  var wrap = document.createElement("div");
+  wrap.id = "domain-sale-wrap";
+  wrap.className = "domain-sale-wrap";
+
+  var ribbon = document.createElement("a");
+  ribbon.className = "domain-sale-ribbon";
+  ribbon.href = "mailto:you@example.com?subject=Domain%20inquiry"; // <- edit
+  ribbon.textContent = "This domain is for sale";
+
+  wrap.appendChild(ribbon);
+
+  // Append to the page
+  document.body.appendChild(wrap);
+}
+
+if (window.location.href.includes("lowtechsanonymous")){
+    showDomainSaleBanner();
+}
