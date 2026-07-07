@@ -156,7 +156,7 @@ function showDomainSaleBanner() {
 
   var ribbon = document.createElement("a");
   ribbon.className = "domain-sale-ribbon";
-  ribbon.href = "mailto:you@example.com?subject=Domain%20inquiry"; // <- edit
+  ribbon.href = "https://www.namecheap.com/market/";
   ribbon.textContent = "This domain is for sale";
 
   wrap.appendChild(ribbon);
