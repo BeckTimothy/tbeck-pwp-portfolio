@@ -156,7 +156,7 @@ function showDomainSaleBanner() {
 
   var ribbon = document.createElement("a");
   ribbon.className = "domain-sale-ribbon";
-  ribbon.href = "https://www.namecheap.com/market/";
+  ribbon.href = "https://ap.www.namecheap.com/domains/marketplace/lowtechsanonymous.com";
   ribbon.textContent = "This domain is for sale";
 
   wrap.appendChild(ribbon);
