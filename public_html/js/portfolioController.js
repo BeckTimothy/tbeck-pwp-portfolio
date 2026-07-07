@@ -165,6 +165,6 @@ function showDomainSaleBanner() {
   document.body.appendChild(wrap);
 }
 
-if (window.location.href.includes("lowtechsanonymous")){
+if (!window.location.href.includes("timothybeck.com")){
     showDomainSaleBanner();
 }
