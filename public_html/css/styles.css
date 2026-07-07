@@ -22,7 +22,7 @@ a {
 /*highlighted BG color = #3e3d32 */
 /*text primary color = #908463 */
 #webringWrapper{
-	display: inline-block;
+	display: none;
 	vertical-align: middle;
 }
 #webring{
